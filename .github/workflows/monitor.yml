@@ -1,6 +1,9 @@
 name: FREITAG WATCH
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
@@ -64,42 +67,42 @@ jobs:
         run: python -m pytest
 
       - name: Restore durable state from data branch
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: |
           mkdir -p data
           git fetch origin data:refs/remotes/origin/data 2>/dev/null || true
           git show refs/remotes/origin/data:state.json > data/state.json 2>/dev/null || true
 
       - name: Collect official inventory
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: python -m freitag_watch.cli collect
 
       - name: Prepare notification transaction
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: python -m freitag_watch.cli prepare-notify
 
       - name: Persist prepared delivery state
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: bash scripts/persist_data.sh
 
       - name: Deliver Bark and rare-pattern email
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: python -m freitag_watch.cli deliver-notify
 
       - name: Build mobile website and exports
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: python -m freitag_watch.cli build-site
 
       - name: Persist final state and exports
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         run: bash scripts/persist_data.sh
 
       - name: Configure Pages
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
@@ -113,7 +116,7 @@ jobs:
         run: python -m freitag_watch.cli test-email
 
   deploy:
-    if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
     needs: monitor
     runs-on: ubuntu-latest
     environment:
