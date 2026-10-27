@@ -25,7 +25,10 @@ def prepare_notifications(state: MutableMapping[str, Any], now: str) -> int:
     instead of blindly duplicating it.
     """
     bark_configured = bool(os.getenv("BARK_KEY"))
-    email_configured = os.getenv("EMAIL_ENABLED", "false").lower() == "true" and bool(os.getenv("SMTP_PASSWORD"))
+    email_configured = (
+        os.getenv("EMAIL_ENABLED", "false").lower() == "true"
+        and all(os.getenv(name) for name in ("SMTP_USERNAME", "SMTP_PASSWORD", "EMAIL_TO"))
+    )
     count = 0
     for event in state.get("events", []):
         product = _event_product(state, event)
@@ -115,6 +118,7 @@ def _email_html(products: Iterable[Mapping[str, Any]]) -> str:
     base = website_url()
     for product in products:
         pattern = product.get("pattern") or {}
+        reference = pattern.get("reference_match") or {}
         image = html.escape((product.get("images") or [""])[0])
         cards.append(f"""
         <div style="margin:0 0 28px;border:1px solid #ddd;padding:16px;border-radius:12px">
@@ -123,13 +127,14 @@ def _email_html(products: Iterable[Mapping[str, Any]]) -> str:
           <p><b>价格：</b>{product.get('price')} {html.escape(str(product.get('currency') or ''))}<br>
           <b>发现时间：</b>{html.escape(str(product.get('first_seen_at')))}<br>
           <b>类别：</b>{html.escape('、'.join(pattern.get('categories') or []))}<br>
+          <b>参考特征：</b>{html.escape(str(reference.get('reason') or '命中用户参考稀有皮特征'))}<br>
           <b>评分：</b>{pattern.get('score')}/100（置信度 {pattern.get('confidence')}）<br>
           <b>依据：</b>{html.escape(str(pattern.get('reason') or ''))}</p>
           <p><a href="{html.escape(str(product.get('url') or ''))}">打开 FREITAG 官方购买页</a>
           {f' · <a href="{html.escape(base)}">在 FREITAG WATCH 查看</a>' if base else ''}</p>
         </div>""")
     return """<!doctype html><html><body style="font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;color:#111">
-    <h1>FREITAG 特殊图案提醒</h1><p>这是自动图像规则筛选结果，不代表官方或市场对“稀有”的认定。</p>
+    <h1>FREITAG 参考稀有皮相似提醒</h1><p>仅在新品与用户提供的参考稀有皮具有相似主题特征时发送；这是自动筛选结果，不代表官方或市场对“稀有”的认定。</p>
     """ + "".join(cards) + "</body></html>"
 
 
@@ -198,4 +203,3 @@ def send_email_test() -> None:
                     "reason": "这是一封配置测试邮件，不会写入真实库存。"},
     }
     _send_email([sample])
-
