@@ -8,3 +8,5 @@ def test_schedule_concurrency_and_manual_dispatch_present():
     assert "workflow_dispatch:" in text
     assert "cancel-in-progress: false" in text
     assert "actions/deploy-pages" in text
+    assert "data/state.remote.json" in text
+    assert "mv data/state.remote.json data/state.json" in text

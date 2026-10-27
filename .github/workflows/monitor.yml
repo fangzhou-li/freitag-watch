@@ -71,7 +71,12 @@ jobs:
         run: |
           mkdir -p data
           git fetch origin data:refs/remotes/origin/data 2>/dev/null || true
-          git show refs/remotes/origin/data:state.json > data/state.json 2>/dev/null || true
+          if git show refs/remotes/origin/data:state.json > data/state.remote.json 2>/dev/null; then
+            mv data/state.remote.json data/state.json
+            echo "Restored state from the data branch"
+          else
+            echo "No data branch yet; preserving the real baseline committed on main"
+          fi
 
       - name: Collect official inventory
         if: ${{ github.event_name == 'push' || github.event_name == 'schedule' || inputs.mode == 'monitor' }}
