@@ -1,0 +1,13 @@
+{
+  "name": "FREITAG WATCH",
+  "short_name": "F WATCH",
+  "description": "独立的 FREITAG 商品库存监控画廊",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f6f4",
+  "theme_color": "#000000",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
+

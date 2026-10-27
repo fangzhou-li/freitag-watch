@@ -1,0 +1,125 @@
+name: FREITAG WATCH
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "运行模式"
+        required: true
+        default: monitor
+        type: choice
+        options:
+          - monitor
+          - bark_test
+          - email_test
+          - both_tests
+
+concurrency:
+  group: freitag-watch-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      BARK_KEY: ${{ secrets.BARK_KEY }}
+      BARK_SERVER: ${{ vars.BARK_SERVER || 'https://api.day.app' }}
+      WEBSITE_URL: ${{ vars.WEBSITE_URL }}
+      EMAIL_ENABLED: ${{ vars.EMAIL_ENABLED || 'false' }}
+      SMTP_HOST: ${{ vars.SMTP_HOST || 'smtp.gmail.com' }}
+      SMTP_PORT: ${{ vars.SMTP_PORT || '465' }}
+      SMTP_SECURITY: ${{ vars.SMTP_SECURITY || 'ssl' }}
+      SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      EMAIL_FROM: ${{ vars.EMAIL_FROM }}
+      EMAIL_TO: ${{ secrets.EMAIL_TO }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+          if ! command -v tesseract >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y tesseract-ocr
+          fi
+
+      - name: Test
+        run: python -m pytest
+
+      - name: Restore durable state from data branch
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: |
+          mkdir -p data
+          git fetch origin data:refs/remotes/origin/data 2>/dev/null || true
+          git show refs/remotes/origin/data:state.json > data/state.json 2>/dev/null || true
+
+      - name: Collect official inventory
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: python -m freitag_watch.cli collect
+
+      - name: Prepare notification transaction
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: python -m freitag_watch.cli prepare-notify
+
+      - name: Persist prepared delivery state
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: bash scripts/persist_data.sh
+
+      - name: Deliver Bark and rare-pattern email
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: python -m freitag_watch.cli deliver-notify
+
+      - name: Build mobile website and exports
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: python -m freitag_watch.cli build-site
+
+      - name: Persist final state and exports
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        run: bash scripts/persist_data.sh
+
+      - name: Configure Pages
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Bark test
+        if: ${{ inputs.mode == 'bark_test' || inputs.mode == 'both_tests' }}
+        run: python -m freitag_watch.cli test-bark
+
+      - name: Email test
+        if: ${{ inputs.mode == 'email_test' || inputs.mode == 'both_tests' }}
+        run: python -m freitag_watch.cli test-email
+
+  deploy:
+    if: ${{ github.event_name == 'schedule' || inputs.mode == 'monitor' }}
+    needs: monitor
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

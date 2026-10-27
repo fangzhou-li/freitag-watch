@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="F WATCH">
+  <title>FREITAG WATCH</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">INDEPENDENT INVENTORY MONITOR</p>
+      <h1>FREITAG WATCH</h1>
+    </div>
+    <button id="info-button" class="icon-button" aria-label="说明">i</button>
+  </header>
+
+  <nav id="model-nav" class="chip-row" aria-label="型号筛选">
+    <button class="chip selected" data-model="ALL">全部</button>
+    <button class="chip" data-model="F171">F171</button>
+    <button class="chip" data-model="F705">F705</button>
+    <button class="chip" data-model="F141">F141</button>
+    <button class="chip" data-model="F640">F640</button>
+    <button class="chip" data-model="F41">F41</button>
+  </nav>
+  <div id="f640-subnav" class="chip-row subnav hidden">
+    <button class="chip selected" data-source="ALL">全部 F640</button>
+    <button class="chip" data-source="F640">F640 旧版</button>
+    <button class="chip" data-source="RF640">RF640</button>
+  </div>
+
+  <main>
+    <section id="summary" class="summary" aria-live="polite">正在读取真实库存…</section>
+    <section id="controls" class="controls"></section>
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <section id="status-panel" class="status-panel hidden"></section>
+  </main>
+
+  <nav id="tabbar" class="tabbar" aria-label="页面">
+    <button class="tab selected" data-view="latest"><span>✦</span>最新发现</button>
+    <button class="tab" data-view="current"><span>◉</span>当前在售</button>
+    <button class="tab" data-view="patterns"><span>◇</span>特殊图案</button>
+    <button class="tab" data-view="history"><span>▤</span>历史档案</button>
+    <button class="tab" data-view="favorites"><span>♡</span>我的收藏</button>
+    <button class="tab" data-view="status"><span>●</span>系统状态</button>
+  </nav>
+
+  <dialog id="gallery-dialog" class="gallery-dialog">
+    <button id="gallery-close" class="close-button" aria-label="关闭">×</button>
+    <div id="gallery-content"></div>
+  </dialog>
+
+  <dialog id="info-dialog" class="info-dialog">
+    <button id="info-close" class="close-button" aria-label="关闭">×</button>
+    <h2>关于 FREITAG WATCH</h2>
+    <p>这是独立的个人库存监控工具，不是 FREITAG 官方网站，也与 FREITAG lab. AG 无隶属关系。商品、价格和图片来自 FREITAG 官方公开商品页，购买请以官方页面为准。</p>
+    <p>“疑似稀有”只是本地可解释图像规则给出的收藏线索，不代表官方或市场认定。颜色显示也可能因屏幕而异。</p>
+    <h3>添加到 iPhone 主屏幕</h3>
+    <p>在 Safari 点“分享”按钮，再选“添加到主屏幕”。</p>
+    <h3>收藏与反馈</h3>
+    <p>收藏和“喜欢 / 不喜欢 / 误判 / 值得收藏”反馈只保存在当前浏览器。可以在“我的收藏”导出后，在另一台设备导入。</p>
+  </dialog>
+
+  <template id="card-template">
+    <article class="card">
+      <button class="image-button"><img loading="lazy" decoding="async" alt=""></button>
+      <button class="favorite-button" aria-label="收藏">♡</button>
+      <div class="card-body">
+        <div class="card-heading"><h2></h2><span class="state-badge"></span></div>
+        <p class="item-number"></p>
+        <p class="meta"></p>
+        <p class="pattern-note"></p>
+        <div class="feedback" aria-label="图案反馈">
+          <button data-feedback="like">喜欢</button><button data-feedback="dislike">不喜欢</button>
+          <button data-feedback="false_positive">误判</button><button data-feedback="collectible">值得收藏</button>
+        </div>
+        <a class="buy-link" target="_blank" rel="noopener noreferrer">打开官网购买 ↗</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
