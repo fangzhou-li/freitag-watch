@@ -36,13 +36,45 @@ function modelMatch(p) {
   return p.model === state.model || p.family === state.model;
 }
 
+const FEEDBACK_POINTS = Object.freeze({
+  false_positive: -28,
+  dislike: -10,
+  like: 10,
+  collectible: 24,
+});
+
+function patternKeys(product) {
+  return [...new Set((product.pattern?.categories || [])
+    .map(category => String(category).match(/^([A-Z]\d?)/)?.[1])
+    .filter(Boolean))];
+}
+
+function learnedCategoryWeights(excludeId = null) {
+  const weights = {};
+  Object.entries(state.feedback).forEach(([productId, label]) => {
+    if (!label || productId === excludeId) return;
+    const product = state.products.find(item => item.id === productId);
+    const points = FEEDBACK_POINTS[label] || 0;
+    if (!product || !points) return;
+    patternKeys(product).forEach(key => { weights[key] = (weights[key] || 0) + points; });
+  });
+  Object.keys(weights).forEach(key => { weights[key] = Math.max(-36, Math.min(36, weights[key])); });
+  return weights;
+}
+
+function learnedAdjustment(product) {
+  const weights = learnedCategoryWeights(product.id);
+  return patternKeys(product).reduce((total, key) => total + (weights[key] || 0), 0);
+}
+
+function feedbackCount() {
+  return Object.values(state.feedback).filter(Boolean).length;
+}
+
 function adjustedScore(product) {
   const base = product.pattern?.score || 0; const feedback = state.feedback[product.id];
-  if (feedback === 'false_positive') return base - 35;
-  if (feedback === 'dislike') return base - 15;
-  if (feedback === 'collectible') return base + 20;
-  if (feedback === 'like') return base + 8;
-  return base;
+  const direct = { false_positive: -35, dislike: -15, collectible: 20, like: 8 }[feedback] || 0;
+  return base + direct + learnedAdjustment(product);
 }
 
 function visibleProducts() {
@@ -70,7 +102,8 @@ function renderControls() {
     $('#period').value = String(state.period); $('#period').onchange = e => { state.period = Number(e.target.value); render(); };
   } else if (state.view === 'patterns') {
     controls.innerHTML = `<select id="pattern-level"><option value="ALL">全部等级</option><option>疑似稀有</option><option>值得关注</option></select>
-      <select id="pattern-category"><option value="ALL">全部类型</option><option value="A">A 文字</option><option value="B">B 几何</option><option value="C">C 具象候选</option><option value="D">D 历史差异</option></select>`;
+      <select id="pattern-category"><option value="ALL">全部类型</option><option value="A">A 文字</option><option value="B">B 几何</option><option value="C">C 具象候选</option><option value="D">D 历史差异</option><option value="R">参考稀有皮</option></select>
+      <span class="learning-note">${feedbackCount() ? `已学习 ${feedbackCount()} 条本机反馈` : '反馈会在本机学习相似图案'}</span>`;
     $('#pattern-level').value = state.patternLevel; $('#pattern-category').value = state.patternCategory;
     $('#pattern-level').onchange = e => { state.patternLevel=e.target.value; render(); };
     $('#pattern-category').onchange = e => { state.patternCategory=e.target.value; render(); };
@@ -168,4 +201,3 @@ async function boot() {
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
 boot();
-
