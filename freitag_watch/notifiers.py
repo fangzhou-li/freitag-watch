@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import io
 import os
 import smtplib
 from collections import defaultdict
@@ -9,7 +10,9 @@ from typing import Any, Dict, Iterable, List, Mapping, MutableMapping, Sequence
 from urllib.parse import quote
 
 import requests
+from PIL import Image
 
+from .analyzer import REFERENCE_PROFILE_VERSION
 from .config import USER_AGENT, website_url
 
 
@@ -38,7 +41,14 @@ def prepare_notifications(state: MutableMapping[str, Any], now: str) -> int:
             count += 1
         pattern = product.get("pattern") or {}
         email_state = event.setdefault("email", {"status": "pending", "attempts": 0})
-        if pattern.get("worth_email") and email_configured and email_state.get("status") in ("pending", "failed") and int(email_state.get("attempts", 0)) < 3:
+        reference_match = pattern.get("reference_match") or {}
+        current_high_precision_match = (
+            pattern.get("worth_email") is True
+            and reference_match.get("matched") is True
+            and reference_match.get("version") == REFERENCE_PROFILE_VERSION
+            and reference_match.get("email_eligible", True) is True
+        )
+        if current_high_precision_match and email_configured and email_state.get("status") in ("pending", "failed") and int(email_state.get("attempts", 0)) < 3:
             email_state.update({"status": "sending", "prepared_at": now, "attempts": int(email_state.get("attempts", 0)) + 1})
             count += 1
     return count
@@ -113,13 +123,15 @@ def deliver_bark(state: MutableMapping[str, Any], now: str) -> int:
     return delivered
 
 
-def _email_html(products: Iterable[Mapping[str, Any]]) -> str:
+def _email_html(products: Iterable[Mapping[str, Any]], inline_images: Sequence[str] = ()) -> str:
     cards: List[str] = []
     base = website_url()
-    for product in products:
+    for index, product in enumerate(products):
         pattern = product.get("pattern") or {}
         reference = pattern.get("reference_match") or {}
-        image = html.escape((product.get("images") or [""])[0])
+        image_url = (product.get("images") or [""])[0]
+        image_source = f"cid:{inline_images[index]}" if index < len(inline_images) and inline_images[index] else image_url
+        image = html.escape(str(image_source))
         cards.append(f"""
         <div style="margin:0 0 28px;border:1px solid #ddd;padding:16px;border-radius:12px">
           <img src="{image}" alt="{html.escape(str(product.get('full_name')))}" style="width:100%;max-width:560px;height:auto;border-radius:8px">
@@ -149,7 +161,38 @@ def _send_email(products: Sequence[Mapping[str, Any]]) -> None:
     message["From"] = os.getenv("EMAIL_FROM") or os.environ["SMTP_USERNAME"]
     message["To"] = os.environ["EMAIL_TO"]
     message.set_content("检测到疑似稀有 FREITAG 商品。请使用支持 HTML 的邮件客户端查看图片与链接。")
-    message.add_alternative(_email_html(products), subtype="html")
+    inline_images: List[str] = []
+    image_payloads: List[tuple] = []
+    for index, product in enumerate(products):
+        inline_images.append("")
+        image_url = next(iter(product.get("images") or []), "")
+        if not isinstance(image_url, str) or not image_url.startswith(("https://", "http://")):
+            continue
+        try:
+            response = requests.get(image_url, headers={"User-Agent": USER_AGENT}, timeout=15, stream=True)
+            response.raise_for_status()
+            payload = response.raw.read(8 * 1024 * 1024 + 1, decode_content=True)
+            if len(payload) > 8 * 1024 * 1024:
+                continue
+            decoded = Image.open(io.BytesIO(payload)).convert("RGBA")
+            image = Image.new("RGBA", decoded.size, "white")
+            image.alpha_composite(decoded)
+            image = image.convert("RGB")
+            image.thumbnail((1400, 1400), Image.Resampling.LANCZOS)
+            output = io.BytesIO()
+            image.save(output, format="JPEG", quality=82, optimize=True)
+            cid = f"freitag-product-{index}"
+            inline_images[index] = cid
+            image_payloads.append((cid, output.getvalue()))
+        except Exception:
+            # Preserve a remote URL fallback if the shop image is temporarily
+            # unavailable; the email itself should still be delivered.
+            continue
+
+    message.add_alternative(_email_html(products, inline_images), subtype="html")
+    html_part = message.get_payload()[-1]
+    for cid, payload in image_payloads:
+        html_part.add_related(payload, maintype="image", subtype="jpeg", cid=f"<{cid}>", filename=f"{cid}.jpg")
 
     host = os.getenv("SMTP_HOST", "smtp.gmail.com")
     port = int(os.getenv("SMTP_PORT", "465"))
