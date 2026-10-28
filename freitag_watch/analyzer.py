@@ -13,7 +13,7 @@ from PIL import Image, ImageFilter, ImageStat
 from .config import USER_AGENT
 
 
-REFERENCE_PROFILE_VERSION = "2026-10-27-user-reference-v1"
+REFERENCE_PROFILE_VERSION = "2026-10-28-user-reference-v2"
 
 
 def _longest_run(values: Sequence[bool]) -> Optional[Tuple[int, int]]:
@@ -208,13 +208,14 @@ def _reference_similarity(metrics: Mapping[str, float], ocr_text: str) -> Dict[s
     directional = max(metrics["row_jump_ratio"], metrics["column_jump_ratio"])
     categories: List[str] = []
     reasons: List[str] = []
-    scores: List[int] = []
+    email_scores: List[int] = []
+    candidate_scores: List[int] = []
 
     coherent_text = _coherent_ocr_text(ocr_text)
     if coherent_text and entropy >= 4.5 and edge >= 0.05:
         categories.append("R1 完整文字/印刷主题")
         reasons.append(f"检测到与参考图相似的完整印刷文字“{coherent_text[:60]}”")
-        scores.append(72)
+        email_scores.append(72)
 
     # The reference set contains two kinds of structurally rich prints: a
     # limited-palette drawing with many real contours, or a multi-hue image.
@@ -231,7 +232,7 @@ def _reference_similarity(metrics: Mapping[str, float], ocr_text: str) -> Dict[s
     ):
         categories.append("R2 人物、脸部或具象插画候选")
         reasons.append("细节、轮廓和色块复杂度接近参考图中的人物/漫画/徽章式大幅印花")
-        scores.append(78)
+        email_scores.append(78)
 
     subtle_photo_texture = (
         hues >= 3 and saturation <= 0.15 and entropy >= 5.2 and edge >= 0.05
@@ -239,25 +240,34 @@ def _reference_similarity(metrics: Mapping[str, float], ocr_text: str) -> Dict[s
     if subtle_photo_texture and dominant <= 0.46:
         categories.append("R3 摄影场景、物件或复杂纹理候选")
         reasons.append("连续细节与多层次色调接近参考图中的摄影场景、物件或纹理印花")
-        scores.append(62)
+        # Generic photo-like texture is useful as a review hint, but is too
+        # easy for tarp grain, shadows, and studio backgrounds to imitate.
+        candidate_scores.append(62)
 
     if hues >= 3 and saturation <= 0.18 and entropy >= 5.8 and edge >= 0.085 and dominant <= 0.46:
         categories.append("R4 高对比黑白图像")
         reasons.append("低饱和但轮廓与细节丰富，接近参考图中的黑白人物/眼睛图像")
-        scores.append(70)
+        # Keep monochrome detail as a candidate only; it often describes
+        # ordinary tarp texture rather than a distinctive print.
+        candidate_scores.append(70)
 
     spectrum_print = hues >= 8 and entropy >= 4.7
     directional_rainbow = hues >= 3 and saturation >= 0.24 and directional >= 0.15 and edge >= 0.09
     if (spectrum_print or directional_rainbow) and dominant <= 0.48:
         categories.append("R5 彩虹、虹彩或光束图案")
         reasons.append("检测到丰富色相或方向性光束特征，接近参考图中的彩虹/虹彩皮")
-        scores.append(74)
+        email_scores.append(74)
 
-    score = max(scores, default=0)
+    score = max(email_scores + candidate_scores, default=0)
     return {
         "version": REFERENCE_PROFILE_VERSION,
         "source_count": 16,
-        "matched": score >= 62,
+        # Email is intentionally precision-first: require readable print,
+        # strongly structured illustration, or a clear spectrum/rainbow.
+        # Photo/monochrome texture alone remains visible as a candidate but
+        # must not trigger a rare-skin email.
+        "matched": bool(email_scores),
+        "email_eligible": bool(email_scores),
         "score": score,
         "categories": categories,
         "reason": "；".join(reasons) if reasons else "未命中用户参考稀有皮的主题特征",
@@ -336,6 +346,9 @@ def analyze_image(
         categories.extend(category for category in reference_match["categories"] if category not in categories)
         reasons.append(reference_match["reason"])
         strong_signals += 1
+    elif reference_match["categories"]:
+        categories.extend(category for category in reference_match["categories"] if category not in categories)
+        reasons.append(reference_match["reason"] + "；仅列为人工复核候选，不触发稀有邮件")
 
     score = min(100, score)
     if reference_match["matched"]:
