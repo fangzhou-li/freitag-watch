@@ -44,6 +44,7 @@ def test_bark_failure_is_retryable_but_bounded(monkeypatch):
 
 def test_email_is_prepared_only_for_reference_match(monkeypatch):
     state = sample_state()
+    monkeypatch.setenv("BARK_KEY", "")
     monkeypatch.setenv("EMAIL_ENABLED", "true")
     monkeypatch.setenv("SMTP_USERNAME", "sender@example.invalid")
     monkeypatch.setenv("SMTP_PASSWORD", "APP_PASSWORD")
@@ -64,6 +65,7 @@ def test_email_is_prepared_only_for_reference_match(monkeypatch):
 def test_incomplete_email_configuration_does_not_consume_attempt(monkeypatch):
     state = sample_state()
     state["products"]["F141_X"]["pattern"] = {"worth_email": True}
+    monkeypatch.setenv("BARK_KEY", "")
     monkeypatch.setenv("EMAIL_ENABLED", "true")
     monkeypatch.setenv("SMTP_PASSWORD", "APP_PASSWORD")
 
