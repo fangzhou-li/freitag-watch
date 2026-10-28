@@ -10,6 +10,19 @@ def test_plain_bright_color_is_not_rare():
     assert result["worth_email"] is False
 
 
+def test_solid_color_with_busy_photo_background_is_not_email_worthy():
+    image = Image.new("RGB", (300, 300), "#e6e2d8")
+    draw = ImageDraw.Draw(image)
+    draw.rectangle((0, 0, 299, 54), fill="#252525")
+    draw.rectangle((0, 245, 299, 299), fill="#252525")
+    draw.line((0, 80, 299, 170), fill="#4d718f", width=18)
+    draw.line((0, 210, 299, 100), fill="#96744b", width=12)
+    draw.rectangle((65, 70, 235, 235), fill="#e02a22")
+    result = analyze_image(image)
+    assert result["worth_email"] is False
+    assert result["reference_match"]["matched"] is False
+
+
 def test_strong_geometric_print_gets_explainable_signal():
     image = Image.new("RGB", (256, 256), "white")
     draw = ImageDraw.Draw(image)
@@ -49,3 +62,14 @@ def test_reference_like_complex_illustration_is_email_worthy():
     assert result["worth_email"] is True
     assert result["reference_match"]["matched"] is True
     assert any(category.startswith("R") for category in result["categories"])
+
+
+def test_photo_like_texture_alone_is_candidate_not_email():
+    image = Image.new("RGB", (256, 256), "#777777")
+    draw = ImageDraw.Draw(image)
+    for x in range(0, 256, 6):
+        shade = 85 + (x * 7 % 100)
+        draw.line((x, 0, 255 - x // 2, 255), fill=(shade, shade, shade), width=2)
+    result = analyze_image(image)
+    assert result["worth_email"] is False
+    assert result["reference_match"]["matched"] is False
