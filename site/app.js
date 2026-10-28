@@ -1,6 +1,6 @@
 const state = {
   products: [], events: [], status: {}, view: 'latest', model: 'ALL', source: 'ALL', period: 7,
-  patternLevel: 'ALL', patternCategory: 'ALL', favorites: new Set(), feedback: {},
+  patternLevel: 'ALL', patternCategory: 'ALL', favorites: new Set(), feedback: {}, feedbackNotes: {},
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -16,10 +16,12 @@ const ageDays = (iso) => (Date.now() - new Date(iso).getTime()) / 86400000;
 function loadLocal() {
   try { state.favorites = new Set(JSON.parse(localStorage.getItem('fw:favorites') || '[]')); } catch (_) {}
   try { state.feedback = JSON.parse(localStorage.getItem('fw:feedback') || '{}'); } catch (_) {}
+  try { state.feedbackNotes = JSON.parse(localStorage.getItem('fw:feedback-notes') || '{}'); } catch (_) {}
 }
 function saveLocal() {
   localStorage.setItem('fw:favorites', JSON.stringify([...state.favorites]));
   localStorage.setItem('fw:feedback', JSON.stringify(state.feedback));
+  localStorage.setItem('fw:feedback-notes', JSON.stringify(state.feedbackNotes));
 }
 
 function applyUrl() {
@@ -103,7 +105,7 @@ function renderControls() {
   } else if (state.view === 'patterns') {
     controls.innerHTML = `<select id="pattern-level"><option value="ALL">全部等级</option><option>疑似稀有</option><option>值得关注</option></select>
       <select id="pattern-category"><option value="ALL">全部类型</option><option value="A">A 文字</option><option value="B">B 几何</option><option value="C">C 具象候选</option><option value="D">D 历史差异</option><option value="R">参考稀有皮</option></select>
-      <span class="learning-note">${feedbackCount() ? `已学习 ${feedbackCount()} 条本机反馈` : '反馈会在本机学习相似图案'}</span>`;
+      <span class="learning-note">${feedbackCount() ? `${feedbackCount()} 条反馈仅用于本机排序` : '反馈只影响本机排序，不会自动上传'}</span>`;
     $('#pattern-level').value = state.patternLevel; $('#pattern-category').value = state.patternCategory;
     $('#pattern-level').onchange = e => { state.patternLevel=e.target.value; render(); };
     $('#pattern-category').onchange = e => { state.patternCategory=e.target.value; render(); };
@@ -134,6 +136,19 @@ function renderCard(product) {
     button.classList.toggle('selected', state.feedback[product.id] === button.dataset.feedback);
     button.onclick = () => { state.feedback[product.id] = state.feedback[product.id] === button.dataset.feedback ? null : button.dataset.feedback; saveLocal(); render(); };
   });
+  const noteBox = node.querySelector('.feedback-note');
+  const noteInput = node.querySelector('[data-feedback-note]');
+  const noteSave = node.querySelector('[data-feedback-note-save]');
+  noteBox.classList.toggle('visible', state.feedback[product.id] === 'false_positive');
+  noteInput.value = state.feedbackNotes[product.id] || '';
+  noteSave.onclick = () => {
+    const note = noteInput.value.trim().slice(0, 1000);
+    if (note) state.feedbackNotes[product.id] = note;
+    else delete state.feedbackNotes[product.id];
+    saveLocal();
+    noteSave.textContent = '已保存';
+    setTimeout(() => { if (noteSave.isConnected) noteSave.textContent = '保存留言'; }, 1400);
+  };
   node.ondblclick = () => node.classList.toggle('expanded');
   return node;
 }
@@ -175,13 +190,13 @@ function openGallery(product) {
 }
 
 function exportLocal() {
-  const payload = {version:1, exported_at:new Date().toISOString(), favorites:[...state.favorites], feedback:state.feedback};
+  const payload = {version:2, exported_at:new Date().toISOString(), favorites:[...state.favorites], feedback:state.feedback, feedback_notes:state.feedbackNotes};
   const blob = new Blob([JSON.stringify(payload,null,2)], {type:'application/json'}); const a=document.createElement('a');
   a.href=URL.createObjectURL(blob); a.download='freitag-watch-favorites.json'; a.click(); URL.revokeObjectURL(a.href);
 }
 async function importLocal(event) {
   const file=event.target.files?.[0]; if(!file) return;
-  try { const payload=JSON.parse(await file.text()); state.favorites=new Set(payload.favorites || []); state.feedback=payload.feedback || {}; saveLocal(); render(); }
+  try { const payload=JSON.parse(await file.text()); state.favorites=new Set(payload.favorites || []); state.feedback=payload.feedback || {}; state.feedbackNotes=payload.feedback_notes || {}; saveLocal(); render(); }
   catch (_) { alert('导入失败：文件不是有效的 FREITAG WATCH 导出文件。'); }
 }
 
