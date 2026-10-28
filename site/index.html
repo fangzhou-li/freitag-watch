@@ -66,7 +66,7 @@
     <h3>添加到 iPhone 主屏幕</h3>
     <p>在 Safari 点“分享”按钮，再选“添加到主屏幕”。</p>
     <h3>收藏与反馈</h3>
-    <p>收藏和“喜欢 / 不喜欢 / 误判 / 值得收藏”反馈只保存在当前浏览器。反馈会按图案类别学习：误判/不喜欢会降低相似类别，喜欢/值得收藏会提高相似类别。可以在“我的收藏”导出后，在另一台设备导入；不会上传浏览记录。</p>
+    <p>收藏、反馈和误判留言只保存在当前浏览器，不会自动上传到云端。标记“误判”后可填写原因；在“我的收藏”导出 JSON，再把文件发给我，才能用于后续复核筛选规则。不同意自动判断时也可只标记“不喜欢”，它代表个人偏好，不代表误判。</p>
   </dialog>
 
   <template id="card-template">
@@ -81,6 +81,10 @@
         <div class="feedback" aria-label="图案反馈">
           <button data-feedback="like">喜欢</button><button data-feedback="dislike">不喜欢</button>
           <button data-feedback="false_positive">误判</button><button data-feedback="collectible">值得收藏</button>
+        </div>
+        <div class="feedback-note">
+          <label>误判原因或补充说明<textarea data-feedback-note maxlength="1000" placeholder="例如：这是普通纯色 tarp，照片背景造成了误判"></textarea></label>
+          <button data-feedback-note-save type="button">保存留言</button>
         </div>
         <a class="buy-link" target="_blank" rel="noopener noreferrer">打开官网购买 ↗</a>
       </div>
