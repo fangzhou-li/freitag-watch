@@ -1493,54 +1493,230 @@
       "product_id": "F41_000004358110",
       "source_key": "F41",
       "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:05+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F141_000004230139:new:1",
+      "product_id": "F141_000004230139",
+      "source_key": "F141",
+      "type": "new"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:10+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "RF640-07_010000538678:new:1",
+      "product_id": "RF640-07_010000538678",
+      "source_key": "RF640",
+      "type": "new"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:10+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "RF640-07_010000538695:new:1",
+      "product_id": "RF640-07_010000538695",
+      "source_key": "RF640",
+      "type": "new"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004398480:relisted:2",
+      "product_id": "F41_000004398480",
+      "source_key": "F41",
+      "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004239216:new:1",
+      "product_id": "F41_000004239216",
+      "source_key": "F41",
+      "type": "new"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004404826:relisted:2",
+      "product_id": "F41_000004404826",
+      "source_key": "F41",
+      "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004402708:new:1",
+      "product_id": "F41_000004402708",
+      "source_key": "F41",
+      "type": "new"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004248861:relisted:2",
+      "product_id": "F41_000004248861",
+      "source_key": "F41",
+      "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004402658:relisted:2",
+      "product_id": "F41_000004402658",
+      "source_key": "F41",
+      "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004276202:relisted:2",
+      "product_id": "F41_000004276202",
+      "source_key": "F41",
+      "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-30T16:06:30+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-30T16:06:12+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F41_000004248828:relisted:2",
+      "product_id": "F41_000004248828",
+      "source_key": "F41",
+      "type": "relisted"
     }
   ],
   "initialized_at": "2026-10-27T13:03:35+00:00",
-  "last_attempt_at": "2026-10-30T09:14:16+00:00",
+  "last_attempt_at": "2026-10-30T16:05:55+00:00",
   "last_error": null,
-  "last_full_success_at": "2026-10-30T09:14:35+00:00",
-  "last_success_at": "2026-10-30T09:14:35+00:00",
+  "last_full_success_at": "2026-10-30T16:06:30+00:00",
+  "last_success_at": "2026-10-30T16:06:30+00:00",
   "models": {
     "F141": {
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-30T09:14:22+00:00",
+      "last_checked_at": "2026-10-30T16:06:05+00:00",
       "last_error": null,
       "last_page_f_number": "F141",
       "last_status_code": 200,
-      "last_success_at": "2026-10-30T09:14:22+00:00",
-      "last_valid_count": 43,
+      "last_success_at": "2026-10-30T16:06:05+00:00",
+      "last_valid_count": 42,
       "source_url": "https://freitag.ch/en_US/products/f141-beryl"
     },
     "F171": {
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-30T09:14:16+00:00",
+      "last_checked_at": "2026-10-30T16:05:56+00:00",
       "last_error": null,
       "last_page_f_number": "F171",
       "last_status_code": 200,
-      "last_success_at": "2026-10-30T09:14:16+00:00",
-      "last_valid_count": 38,
+      "last_success_at": "2026-10-30T16:05:56+00:00",
+      "last_valid_count": 33,
       "source_url": "https://freitag.ch/en_US/products/f171-laura"
     },
     "F41": {
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-30T09:14:29+00:00",
+      "last_checked_at": "2026-10-30T16:06:12+00:00",
       "last_error": null,
       "last_page_f_number": "F41",
       "last_status_code": 200,
-      "last_success_at": "2026-10-30T09:14:29+00:00",
-      "last_valid_count": 57,
+      "last_success_at": "2026-10-30T16:06:12+00:00",
+      "last_valid_count": 56,
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0"
     },
     "F640": {
-      "consecutive_failures": 26,
+      "consecutive_failures": 27,
       "initialized": false,
-      "last_checked_at": "2026-10-30T09:14:24+00:00",
+      "last_checked_at": "2026-10-30T16:06:08+00:00",
       "last_error": "官方商品页返回 404；仅记录源不可用，不视为售罄",
       "last_status_code": 404,
       "last_valid_count": 0,
@@ -1550,29 +1726,29 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-30T09:14:19+00:00",
+      "last_checked_at": "2026-10-30T16:06:03+00:00",
       "last_error": null,
       "last_page_f_number": "F705",
       "last_status_code": 200,
-      "last_success_at": "2026-10-30T09:14:19+00:00",
-      "last_valid_count": 44,
+      "last_success_at": "2026-10-30T16:06:03+00:00",
+      "last_valid_count": 42,
       "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag"
     },
     "RF640": {
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-30T09:14:26+00:00",
+      "last_checked_at": "2026-10-30T16:06:10+00:00",
       "last_error": null,
       "last_page_f_number": "RF640",
       "last_status_code": 200,
-      "last_success_at": "2026-10-30T09:14:26+00:00",
-      "last_valid_count": 10,
+      "last_success_at": "2026-10-30T16:06:10+00:00",
+      "last_valid_count": 11,
       "source_url": "https://freitag.ch/en_US/products/rf640-rollin"
     }
   },
   "policy_check": {
-    "checked_at": "2026-10-30T09:14:16+00:00",
+    "checked_at": "2026-10-30T16:05:55+00:00",
     "ok": true,
     "result": "商品页允许访问；/api 禁止访问且本项目未使用该路径"
   },
@@ -1698,7 +1874,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230133_4-20260605153410.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -1764,6 +1940,86 @@
       ],
       "url": "https://freitag.ch/products/f141-beryl?v=000004230133"
     },
+    "F141_000004230139": {
+      "currency": "USD",
+      "family": "F141",
+      "first_seen_at": "2026-10-30T16:06:05+00:00",
+      "full_name": "F141 BERYL",
+      "id": "F141_000004230139",
+      "images": [
+        "https://frtg-product-images.s3.amazonaws.com/000004230139_1-20260605153415.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004230139_2-20260605153417.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004230139_3-20260605153420.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004230139_4-20260605153421.png"
+      ],
+      "is_relisted": false,
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
+      "listing_count": 1,
+      "missing_checks": 0,
+      "model": "F141",
+      "name": "BERYL",
+      "official_attributes": {
+        "description": "Crossbody Small",
+        "design": "Form asymm./unregelmässig",
+        "finish": "glänzend",
+        "good_type": "UNIKAT"
+      },
+      "official_item_number": "000004230139",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0478,
+          "coarse_entropy": 6.795,
+          "column_jump_ratio": 0.0952,
+          "dominant_color_ratio": 0.1583,
+          "edge_density": 0.076,
+          "entropy": 6.493,
+          "meaningful_colors": 11.0,
+          "meaningful_hues": 2.0,
+          "nearest_history_hash_distance": 64.0,
+          "row_jump_ratio": 0.0794,
+          "saturation": 0.3239
+        },
+        "ocr_available": true,
+        "ocr_text": "Pia",
+        "perceptual_hash": "7ffef7fff00f700f701f701f601fa03fb03fb021d021d021003f003f00006000",
+        "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 12,
+        "worth_email": false
+      },
+      "previous_status": null,
+      "price": 240.0,
+      "primary_color": "绿色",
+      "secondary_colors": [
+        "白色"
+      ],
+      "sku": "F141_000004230139",
+      "source_key": "F141",
+      "source_url": "https://freitag.ch/en_US/products/f141-beryl",
+      "status": "available",
+      "status_history": [
+        {
+          "at": "2026-10-30T16:06:05+00:00",
+          "reason": "new",
+          "status": "available"
+        }
+      ],
+      "url": "https://freitag.ch/products/f141-beryl?v=000004230139"
+    },
     "F141_000004230145": {
       "currency": "USD",
       "family": "F141",
@@ -1777,7 +2033,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230145_4-20260623170633.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -1822,7 +2078,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230182_4-20260605153436.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -1865,7 +2121,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230233_4-20260605153519.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -1910,7 +2166,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230265_4-20260605153543.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -1953,7 +2209,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230266_4-20260605153549.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -1996,7 +2252,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230299_4-20260605153555.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2042,7 +2298,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230326_4-20260623171626.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2138,7 +2394,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004233853_4-20260324113129.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2183,7 +2439,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004233876_4-20260327083224.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2316,7 +2572,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004235285_4-20260324103302.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2394,7 +2650,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306028_4-20260605153759.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2442,7 +2698,7 @@
         "score": 12,
         "worth_email": false
       },
-      "previous_status": null,
+      "previous_status": "available",
       "price": 240.0,
       "primary_color": "红色",
       "secondary_colors": [
@@ -2474,7 +2730,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306100_4-20260624125734.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2519,7 +2775,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306173_4-20260623171715.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2562,7 +2818,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306255_4-20260605153849.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2640,7 +2896,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306304_4-20260605163238.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F141",
@@ -2733,7 +2989,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004307331_4-20260902154229.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2817,7 +3073,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004307386_4-20260807133647.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2860,7 +3116,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004307394_4-20260807133653.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2960,7 +3216,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:22+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F141",
       "name": "BERYL",
       "official_attributes": {
@@ -2980,12 +3236,17 @@
       "sku": "F141_000004311219",
       "source_key": "F141",
       "source_url": "https://freitag.ch/en_US/products/f141-beryl",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:42+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:05+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f141-beryl?v=000004311219"
@@ -3003,7 +3264,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004311232_4-20260326113403.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3048,7 +3309,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312255_4-20260624130047.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3091,7 +3352,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312288_4-20260624130052.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3136,7 +3397,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312523_4-20260327083559.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3179,7 +3440,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312845_4-20260327083724.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3224,7 +3485,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004325505_4-20260327083823.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3322,7 +3583,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004325940_4-20260324104207.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3367,7 +3628,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004325976_4-20260324104219.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3447,7 +3708,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004432949_4-20260807130836.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3492,7 +3753,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004432969_4-20260807133719.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3538,7 +3799,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464513_4-20260807130907.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3583,7 +3844,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464521_4-20260807133742.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3628,7 +3889,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464543_4-20260807130931.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3765,7 +4026,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464618_4-20260807130952.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3811,7 +4072,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464716_4-20260807133940.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3965,7 +4226,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464827_4-20260807131001.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4011,7 +4272,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464992_4-20260807134034.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4056,7 +4317,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004488826_4-20260807131128.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4136,7 +4397,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004488948_4-20260902154434.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4181,7 +4442,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004501551_4-20260902154451.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4226,7 +4487,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:22+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F141",
       "name": "BERYL",
       "official_attributes": {
@@ -4246,12 +4507,17 @@
       "sku": "F141_000004501579",
       "source_key": "F141",
       "source_url": "https://freitag.ch/en_US/products/f141-beryl",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:42+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:05+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f141-beryl?v=000004501579"
@@ -4269,7 +4535,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004501685_4-20260902154548.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4367,7 +4633,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004501737_4-20260902154629.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:22+00:00",
+      "last_seen_at": "2026-10-30T16:06:05+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4416,7 +4682,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004245170_4-20261005165806.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -4461,7 +4727,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393578_4-20261005171827.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -4902,7 +5168,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393778_4-20261005171921.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -4947,7 +5213,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393799_4-20261002161412.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -4992,7 +5258,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393866_4-20261002161435.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5141,7 +5407,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393938_4-20261014140309.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5186,7 +5452,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393964_4-20261002161007.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5416,7 +5682,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004407667_4-20261002143352.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5639,7 +5905,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004407725_4-20261002143404.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5761,7 +6027,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408203_4-20261028143757.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5841,7 +6107,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408235_4-20261028143831.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5923,7 +6189,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:16+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -5978,12 +6244,17 @@
       "sku": "F171_000004408307",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-28T15:35:52+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:05:56+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004408307"
@@ -6089,7 +6360,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408343_4-20261028144046.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6265,7 +6536,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408376_4-20261028144115.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6349,7 +6620,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408385_4-20261028144124.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6527,7 +6798,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408426_4-20261028144209.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6696,7 +6967,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408457_4-20261028155429.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6776,7 +7047,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408466_4-20261028155439.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6856,7 +7127,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408485_4-20261028144244.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6936,7 +7207,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408498_4-20261028144318.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7018,7 +7289,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:16+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -7077,12 +7348,17 @@
       "sku": "F171_000004408613",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-28T15:35:52+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:05:56+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004408613"
@@ -7102,7 +7378,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T02:45:13+00:00",
       "listing_count": 1,
-      "missing_checks": 1,
+      "missing_checks": 2,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -7148,7 +7424,7 @@
         "score": 12,
         "worth_email": false
       },
-      "previous_status": "available",
+      "previous_status": "possibly_sold",
       "price": 250.0,
       "primary_color": "红色",
       "secondary_colors": [
@@ -7157,7 +7433,7 @@
       "sku": "F171_000004408629",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "possibly_sold",
+      "status": "sold",
       "status_history": [
         {
           "at": "2026-10-28T15:35:52+00:00",
@@ -7168,6 +7444,11 @@
           "at": "2026-10-30T09:14:16+00:00",
           "reason": "first_missing_check",
           "status": "possibly_sold"
+        },
+        {
+          "at": "2026-10-30T16:05:56+00:00",
+          "reason": "two_valid_checks",
+          "status": "sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004408629"
@@ -7185,7 +7466,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408636_4-20261028144440.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7269,7 +7550,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409019_4-20261005172142.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7312,7 +7593,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409026_4-20261005172148.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7359,7 +7640,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:16+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -7379,12 +7660,17 @@
       "sku": "F171_000004409030",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:35+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:05:56+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004409030"
@@ -7402,7 +7688,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409043_4-20261005212818.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7447,7 +7733,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409071_4-20261005170153.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7492,7 +7778,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409105_4-20261002144535.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7667,7 +7953,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409233_4-20261028144554.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7800,7 +8086,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409322_4-20261002144557.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7977,7 +8263,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:16+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -8032,12 +8318,17 @@
       "sku": "F171_000004409402",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-28T15:35:52+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:05:56+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004409402"
@@ -8110,7 +8401,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409418_4-20261028144613.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8245,7 +8536,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409455_4-20261005170451.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8288,7 +8579,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409459_4-20261002144631.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8331,7 +8622,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409460_4-20261005172439.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8376,7 +8667,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004410308_4-20261002150201.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8472,7 +8763,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004410386_4-20261002144641.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:16+00:00",
+      "last_seen_at": "2026-10-30T16:05:56+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8520,7 +8811,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:16+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -8538,12 +8829,17 @@
       "sku": "F171_000004410389",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:35+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:05:56+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004410389"
@@ -8616,7 +8912,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -8675,12 +8971,17 @@
       "sku": "F41_000004020779",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-29T00:31:13+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004020779"
@@ -8753,7 +9054,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004199797_4-20260620192308.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -8799,7 +9100,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004231662_4-20260115163631.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -8846,7 +9147,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004231935_4-20260515152956.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -8931,6 +9232,87 @@
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004239167"
     },
+    "F41_000004239216": {
+      "currency": "USD",
+      "family": "F41",
+      "first_seen_at": "2026-10-30T16:06:12+00:00",
+      "full_name": "F41 HAWAII FIVE-0",
+      "id": "F41_000004239216",
+      "images": [
+        "https://frtg-product-images.s3.amazonaws.com/000004239216_1-20260805143420.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004239216_2-20260805143422.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004239216_3-20260805143424.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004239216_4-20260805143425.png"
+      ],
+      "is_relisted": false,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 1,
+      "missing_checks": 0,
+      "model": "F41",
+      "name": "HAWAII FIVE-0",
+      "official_attributes": {
+        "description": "Messenger Extra Small",
+        "design": "Form symm./geradlinig",
+        "finish": "glänzend",
+        "good_type": "UNIKAT"
+      },
+      "official_item_number": "000004239216",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0137,
+          "coarse_entropy": 6.874,
+          "column_jump_ratio": 0.0635,
+          "dominant_color_ratio": 0.1439,
+          "edge_density": 0.0765,
+          "entropy": 6.765,
+          "meaningful_colors": 10.0,
+          "meaningful_hues": 2.0,
+          "nearest_history_hash_distance": 9.0,
+          "row_jump_ratio": 0.1111,
+          "saturation": 0.3672
+        },
+        "ocr_available": true,
+        "ocr_text": "",
+        "perceptual_hash": "fffd7ffe7ffe7ffe7ffc7ffc0000000000000001000180018003fc07ffffffff",
+        "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 12,
+        "worth_email": false
+      },
+      "previous_status": null,
+      "price": 230.0,
+      "primary_color": "粉色",
+      "secondary_colors": [
+        "白色",
+        "银色"
+      ],
+      "sku": "F41_000004239216",
+      "source_key": "F41",
+      "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
+      "status": "available",
+      "status_history": [
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "new",
+          "status": "available"
+        }
+      ],
+      "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004239216"
+    },
     "F41_000004239217": {
       "currency": "USD",
       "family": "F41",
@@ -8944,7 +9326,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004239217_4-20260814123919.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -9165,7 +9547,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004240558_4-20260331144344.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -9298,7 +9680,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248246_4-20260820164157.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -9378,7 +9760,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -9398,12 +9780,17 @@
       "sku": "F41_000004248821",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004248821"
@@ -9420,10 +9807,10 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248828_3-20260827165253.png",
         "https://frtg-product-images.s3.amazonaws.com/000004248828_4-20260827165255.png"
       ],
-      "is_relisted": false,
-      "last_seen_at": "2026-10-29T13:49:20+00:00",
-      "listing_count": 1,
-      "missing_checks": 2,
+      "is_relisted": true,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 2,
+      "missing_checks": 0,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -9449,7 +9836,7 @@
           "entropy": 6.557,
           "meaningful_colors": 12.0,
           "meaningful_hues": 1.0,
-          "nearest_history_hash_distance": 67.0,
+          "nearest_history_hash_distance": 0.0,
           "row_jump_ratio": 0.1587,
           "saturation": 0.1269
         },
@@ -9469,7 +9856,7 @@
         "score": 26,
         "worth_email": false
       },
-      "previous_status": "possibly_sold",
+      "previous_status": "sold",
       "price": 230.0,
       "primary_color": "白色",
       "secondary_colors": [
@@ -9479,7 +9866,7 @@
       "sku": "F41_000004248828",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "sold",
+      "status": "available",
       "status_history": [
         {
           "at": "2026-10-29T13:49:20+00:00",
@@ -9495,6 +9882,11 @@
           "at": "2026-10-29T23:26:46+00:00",
           "reason": "two_valid_checks",
           "status": "sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "relisted",
+          "status": "available"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004248828"
@@ -9511,10 +9903,10 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248861_3-20260910082414.png",
         "https://frtg-product-images.s3.amazonaws.com/000004248861_4-20260910082415.png"
       ],
-      "is_relisted": false,
-      "last_seen_at": "2026-10-29T13:49:20+00:00",
-      "listing_count": 1,
-      "missing_checks": 2,
+      "is_relisted": true,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 2,
+      "missing_checks": 0,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -9542,7 +9934,7 @@
           "entropy": 6.391,
           "meaningful_colors": 12.0,
           "meaningful_hues": 1.0,
-          "nearest_history_hash_distance": 9.0,
+          "nearest_history_hash_distance": 0.0,
           "row_jump_ratio": 0.0476,
           "saturation": 0.0419
         },
@@ -9564,7 +9956,7 @@
         "score": 72,
         "worth_email": true
       },
-      "previous_status": "possibly_sold",
+      "previous_status": "sold",
       "price": 230.0,
       "primary_color": "银色",
       "secondary_colors": [
@@ -9573,7 +9965,7 @@
       "sku": "F41_000004248861",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "sold",
+      "status": "available",
       "status_history": [
         {
           "at": "2026-10-29T13:49:20+00:00",
@@ -9589,6 +9981,11 @@
           "at": "2026-10-29T23:26:46+00:00",
           "reason": "two_valid_checks",
           "status": "sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "relisted",
+          "status": "available"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004248861"
@@ -9606,7 +10003,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248985_4-20260827163407.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -9686,7 +10083,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004249264_4-20260910082609.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -9821,7 +10218,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004258460_4-20260708164531.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -9866,7 +10263,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -9886,12 +10283,17 @@
       "sku": "F41_000004261910",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004261910"
@@ -9963,10 +10365,10 @@
         "https://frtg-product-images.s3.amazonaws.com/000004276202_3-20260805144119.png",
         "https://frtg-product-images.s3.amazonaws.com/000004276202_4-20260805144120.png"
       ],
-      "is_relisted": false,
-      "last_seen_at": "2026-10-28T20:40:32+00:00",
-      "listing_count": 1,
-      "missing_checks": 2,
+      "is_relisted": true,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 2,
+      "missing_checks": 0,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -9976,8 +10378,43 @@
         "good_type": "UNIKAT"
       },
       "official_item_number": "000004276202",
-      "pattern": null,
-      "previous_status": "possibly_sold",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.015,
+          "coarse_entropy": 6.79,
+          "column_jump_ratio": 0.1746,
+          "dominant_color_ratio": 0.1596,
+          "edge_density": 0.0941,
+          "entropy": 6.354,
+          "meaningful_colors": 10.0,
+          "meaningful_hues": 2.0,
+          "nearest_history_hash_distance": 60.0,
+          "row_jump_ratio": 0.0794,
+          "saturation": 0.6461
+        },
+        "ocr_available": true,
+        "ocr_text": "",
+        "perceptual_hash": "7ffc3efc7eb45d045a047e847e843efc7f803e013e813e018003800380068006",
+        "reason": "检测到较明显的条纹/几何边界候选；多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 26,
+        "worth_email": false
+      },
+      "previous_status": "sold",
       "price": 230.0,
       "primary_color": "绿色",
       "secondary_colors": [
@@ -9987,7 +10424,7 @@
       "sku": "F41_000004276202",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "sold",
+      "status": "available",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
@@ -10003,6 +10440,11 @@
           "at": "2026-10-29T06:37:07+00:00",
           "reason": "two_valid_checks",
           "status": "sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "relisted",
+          "status": "available"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004276202"
@@ -10020,7 +10462,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004276236_4-20260814125351.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10100,7 +10542,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004276997_4-20260805144718.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10145,7 +10587,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004283422_4-20260629124647.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10188,7 +10630,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004283438_4-20260612155432.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10272,7 +10714,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004289591_4-20260617123427.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10317,7 +10759,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004293351_4-20260605083754.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10454,7 +10896,7 @@
       "is_relisted": true,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 2,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -10500,7 +10942,7 @@
         "score": 26,
         "worth_email": false
       },
-      "previous_status": "sold",
+      "previous_status": "available",
       "price": 230.0,
       "primary_color": "红色",
       "secondary_colors": [
@@ -10509,7 +10951,7 @@
       "sku": "F41_000004358110",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
@@ -10530,6 +10972,11 @@
           "at": "2026-10-30T09:14:29+00:00",
           "reason": "relisted",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004358110"
@@ -10549,7 +10996,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -10604,12 +11051,17 @@
       "sku": "F41_000004358254",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T23:19:24+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004358254"
@@ -10737,7 +11189,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004374634_4-20260708165228.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10782,7 +11234,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -10800,12 +11252,17 @@
       "sku": "F41_000004380399",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004380399"
@@ -10823,7 +11280,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004380416_4-20260331145031.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10866,7 +11323,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396253_4-20261014083423.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10999,7 +11456,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396334_4-20261014083441.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11079,7 +11536,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -11099,12 +11556,17 @@
       "sku": "F41_000004396510",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004396510"
@@ -11234,7 +11696,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396564_4-20261014123441.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11280,7 +11742,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396723_4-20261014153119.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11382,7 +11844,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 2,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -11438,7 +11900,7 @@
       "sku": "F41_000004396752",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
@@ -11459,6 +11921,11 @@
           "at": "2026-10-29T00:31:13+00:00",
           "reason": "relisted",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004396752"
@@ -11478,7 +11945,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:29+00:00",
       "listing_count": 2,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -11531,7 +11998,7 @@
       "sku": "F41_000004396941",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
@@ -11552,6 +12019,11 @@
           "at": "2026-10-29T23:26:46+00:00",
           "reason": "relisted",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004396941"
@@ -11568,10 +12040,10 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398480_3-20261006083458.png",
         "https://frtg-product-images.s3.amazonaws.com/000004398480_4-20261006083459.png"
       ],
-      "is_relisted": false,
-      "last_seen_at": "2026-10-29T13:49:20+00:00",
-      "listing_count": 1,
-      "missing_checks": 2,
+      "is_relisted": true,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 2,
+      "missing_checks": 0,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -11597,7 +12069,7 @@
           "entropy": 6.806,
           "meaningful_colors": 10.0,
           "meaningful_hues": 2.0,
-          "nearest_history_hash_distance": 46.0,
+          "nearest_history_hash_distance": 0.0,
           "row_jump_ratio": 0.127,
           "saturation": 0.5056
         },
@@ -11617,7 +12089,7 @@
         "score": 26,
         "worth_email": false
       },
-      "previous_status": "possibly_sold",
+      "previous_status": "sold",
       "price": 230.0,
       "primary_color": "青色",
       "secondary_colors": [
@@ -11627,7 +12099,7 @@
       "sku": "F41_000004398480",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "sold",
+      "status": "available",
       "status_history": [
         {
           "at": "2026-10-29T13:49:20+00:00",
@@ -11643,6 +12115,11 @@
           "at": "2026-10-29T23:26:46+00:00",
           "reason": "two_valid_checks",
           "status": "sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "relisted",
+          "status": "available"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004398480"
@@ -11803,7 +12280,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398729_4-20261013170004.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11848,7 +12325,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398753_4-20261013170019.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12018,7 +12495,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398797_4-20261014083759.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12117,8 +12594,8 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398817_3-20261013170053.png",
         "https://frtg-product-images.s3.amazonaws.com/000004398817_4-20261013170054.png"
       ],
-      "is_relisted": true,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "is_relisted": false,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -12166,7 +12643,7 @@
         "score": 12,
         "worth_email": false
       },
-      "previous_status": "sold",
+      "previous_status": "available",
       "price": 230.0,
       "primary_color": "白色",
       "secondary_colors": [
@@ -12214,7 +12691,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398902_4-20261014083827.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12324,7 +12801,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398919_4-20261014083850.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12459,7 +12936,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398967_4-20261014083903.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12598,7 +13075,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398982_4-20261013170614.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12644,7 +13121,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398997_4-20261014083935.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12722,7 +13199,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004400623_4-20260921181905.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12910,7 +13387,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T02:45:27+00:00",
       "listing_count": 1,
-      "missing_checks": 1,
+      "missing_checks": 2,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -12955,7 +13432,7 @@
         "score": 12,
         "worth_email": false
       },
-      "previous_status": "available",
+      "previous_status": "possibly_sold",
       "price": 230.0,
       "primary_color": "红色",
       "secondary_colors": [
@@ -12964,7 +13441,7 @@
       "sku": "F41_000004402553",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "possibly_sold",
+      "status": "sold",
       "status_history": [
         {
           "at": "2026-10-27T23:19:24+00:00",
@@ -12975,6 +13452,11 @@
           "at": "2026-10-30T09:14:29+00:00",
           "reason": "first_missing_check",
           "status": "possibly_sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "two_valid_checks",
+          "status": "sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004402553"
@@ -13047,7 +13529,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402576_4-20261014084019.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13093,7 +13575,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402630_4-20261006083853.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13137,10 +13619,10 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402658_3-20261013170637.png",
         "https://frtg-product-images.s3.amazonaws.com/000004402658_4-20261013170638.png"
       ],
-      "is_relisted": false,
-      "last_seen_at": "2026-10-29T13:49:20+00:00",
-      "listing_count": 1,
-      "missing_checks": 2,
+      "is_relisted": true,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 2,
+      "missing_checks": 0,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -13166,7 +13648,7 @@
           "entropy": 6.674,
           "meaningful_colors": 12.0,
           "meaningful_hues": 1.0,
-          "nearest_history_hash_distance": 71.0,
+          "nearest_history_hash_distance": 0.0,
           "row_jump_ratio": 0.127,
           "saturation": 0.3397
         },
@@ -13186,7 +13668,7 @@
         "score": 26,
         "worth_email": false
       },
-      "previous_status": "possibly_sold",
+      "previous_status": "sold",
       "price": 230.0,
       "primary_color": "红色",
       "secondary_colors": [
@@ -13195,7 +13677,7 @@
       "sku": "F41_000004402658",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "sold",
+      "status": "available",
       "status_history": [
         {
           "at": "2026-10-29T13:49:20+00:00",
@@ -13211,6 +13693,11 @@
           "at": "2026-10-29T23:26:46+00:00",
           "reason": "two_valid_checks",
           "status": "sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "relisted",
+          "status": "available"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004402658"
@@ -13228,7 +13715,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402671_4-20261006083906.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13295,6 +13782,86 @@
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004402671"
     },
+    "F41_000004402708": {
+      "currency": "USD",
+      "family": "F41",
+      "first_seen_at": "2026-10-30T16:06:12+00:00",
+      "full_name": "F41 HAWAII FIVE-0",
+      "id": "F41_000004402708",
+      "images": [
+        "https://frtg-product-images.s3.amazonaws.com/000004402708_1-20261006083933.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004402708_2-20261006083934.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004402708_3-20261006083936.png",
+        "https://frtg-product-images.s3.amazonaws.com/000004402708_4-20261006083937.png"
+      ],
+      "is_relisted": false,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 1,
+      "missing_checks": 0,
+      "model": "F41",
+      "name": "HAWAII FIVE-0",
+      "official_attributes": {
+        "description": "Messenger Extra Small",
+        "design": "Form symm./geradlinig",
+        "finish": "glänzend",
+        "good_type": "UNIKAT"
+      },
+      "official_item_number": "000004402708",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0382,
+          "coarse_entropy": 6.786,
+          "column_jump_ratio": 0.2857,
+          "dominant_color_ratio": 0.1449,
+          "edge_density": 0.0898,
+          "entropy": 6.283,
+          "meaningful_colors": 9.0,
+          "meaningful_hues": 2.0,
+          "nearest_history_hash_distance": 47.0,
+          "row_jump_ratio": 0.127,
+          "saturation": 0.2626
+        },
+        "ocr_available": true,
+        "ocr_text": "c",
+        "perceptual_hash": "7be67be67be67bec7bec7bec7bec7bec7bcc7b843b8483c98001800180028002",
+        "reason": "检测到较明显的条纹/几何边界候选；多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 26,
+        "worth_email": false
+      },
+      "previous_status": null,
+      "price": 230.0,
+      "primary_color": "青色",
+      "secondary_colors": [
+        "白色"
+      ],
+      "sku": "F41_000004402708",
+      "source_key": "F41",
+      "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
+      "status": "available",
+      "status_history": [
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "new",
+          "status": "available"
+        }
+      ],
+      "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004402708"
+    },
     "F41_000004404573": {
       "currency": "USD",
       "family": "F41",
@@ -13308,7 +13875,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404573_4-20261014084139.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13353,7 +13920,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404582_4-20261006084126.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13397,10 +13964,10 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404826_3-20261014084226.png",
         "https://frtg-product-images.s3.amazonaws.com/000004404826_4-20261014084227.png"
       ],
-      "is_relisted": false,
-      "last_seen_at": "2026-10-27T19:36:52+00:00",
-      "listing_count": 1,
-      "missing_checks": 2,
+      "is_relisted": true,
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
+      "listing_count": 2,
+      "missing_checks": 0,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -13410,8 +13977,43 @@
         "good_type": "UNIKAT"
       },
       "official_item_number": "000004404826",
-      "pattern": null,
-      "previous_status": "possibly_sold",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0218,
+          "coarse_entropy": 6.46,
+          "column_jump_ratio": 0.127,
+          "dominant_color_ratio": 0.1624,
+          "edge_density": 0.079,
+          "entropy": 6.161,
+          "meaningful_colors": 12.0,
+          "meaningful_hues": 1.0,
+          "nearest_history_hash_distance": 7.0,
+          "row_jump_ratio": 0.127,
+          "saturation": 0.4715
+        },
+        "ocr_available": true,
+        "ocr_text": "",
+        "perceptual_hash": "7ffc7ffc7ffc7ffc7ffc7ffc7ffc7ffc7f847f803fc180018000c00cfffcfffe",
+        "reason": "检测到较明显的条纹/几何边界候选；多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 26,
+        "worth_email": false
+      },
+      "previous_status": "sold",
       "price": 230.0,
       "primary_color": "黄色",
       "secondary_colors": [
@@ -13420,7 +14022,7 @@
       "sku": "F41_000004404826",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "sold",
+      "status": "available",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
@@ -13436,6 +14038,11 @@
           "at": "2026-10-28T02:28:40+00:00",
           "reason": "two_valid_checks",
           "status": "sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "relisted",
+          "status": "available"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004404826"
@@ -13653,7 +14260,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404874_4-20261006084436.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13698,7 +14305,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404915_4-20261014084316.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13853,7 +14460,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404940_4-20261014084350.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13953,7 +14560,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404971_4-20261013170202.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13998,7 +14605,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404983_4-20261014084417.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -14148,7 +14755,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404992_4-20261014084423.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14229,7 +14836,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404993_4-20261006084600.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14274,7 +14881,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404998_4-20261006084613.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14375,7 +14982,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004405666_4-20260921103757.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14511,7 +15118,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004405962_4-20260921103855.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14591,7 +15198,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004488523_4-20260629153520.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14673,7 +15280,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004493232_4-20260629153928.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:29+00:00",
+      "last_seen_at": "2026-10-30T16:06:12+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14907,7 +15514,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T02:45:27+00:00",
       "listing_count": 1,
-      "missing_checks": 1,
+      "missing_checks": 2,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -14918,7 +15525,7 @@
       },
       "official_item_number": "000004501158",
       "pattern": null,
-      "previous_status": "available",
+      "previous_status": "possibly_sold",
       "price": 230.0,
       "primary_color": "灰色",
       "secondary_colors": [
@@ -14927,7 +15534,7 @@
       "sku": "F41_000004501158",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "possibly_sold",
+      "status": "sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
@@ -14938,6 +15545,11 @@
           "at": "2026-10-30T09:14:29+00:00",
           "reason": "first_missing_check",
           "status": "possibly_sold"
+        },
+        {
+          "at": "2026-10-30T16:06:12+00:00",
+          "reason": "two_valid_checks",
+          "status": "sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004501158"
@@ -14953,7 +15565,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000570159_2-20250128145044.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -14994,7 +15606,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000570203_2-20250128145351.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15035,7 +15647,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000574263_2-20250318172720.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15078,7 +15690,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:19+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F705",
       "name": "SECRID X FREITAG",
       "official_attributes": {
@@ -15096,12 +15708,17 @@
       "sku": "F705_010000580442",
       "source_key": "F705",
       "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:39+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:03+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000580442"
@@ -15117,7 +15734,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000593634_2-20260512121705.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15160,7 +15777,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000593668_2-20260512121847.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15362,7 +15979,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000599903_2-20251110080906.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15403,7 +16020,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000599952_2-20251110081137.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15444,7 +16061,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000599976_2-20251110081248.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15485,7 +16102,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000611514_2-20251208153730.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15526,7 +16143,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000611546_2-20251208153919.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15567,7 +16184,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000611568_2-20251208154027.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15608,7 +16225,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000622870_2-20260414194603.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15651,7 +16268,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660830_2-20260925083848.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15785,7 +16402,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660844_2-20260925083933.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15881,7 +16498,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660849_2-20260925083950.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15922,7 +16539,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660851_2-20260925083959.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -15999,7 +16616,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660857_2-20260925084022.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16042,7 +16659,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660868_2-20260925084100.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16085,7 +16702,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660887_2-20260925084158.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16129,7 +16746,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660891_2-20260925084213.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16170,7 +16787,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660898_2-20260925084239.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16213,7 +16830,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660903_2-20260925084257.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16256,7 +16873,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660916_2-20260925084403.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16340,7 +16957,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660919_2-20260925084414.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16436,7 +17053,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660922_2-20260925084422.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16477,7 +17094,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660932_2-20260925084450.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16518,7 +17135,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660933_2-20260925084457.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16561,7 +17178,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660935_2-20260925084510.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16605,7 +17222,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660945_2-20260925084543.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16646,7 +17263,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660947_2-20260925084548.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16689,7 +17306,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660950_2-20260925084558.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16781,7 +17398,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660959_2-20260925084634.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16824,7 +17441,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660974_2-20260925084716.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16868,7 +17485,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660985_2-20260925084757.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16911,7 +17528,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660986_2-20260925084800.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16955,7 +17572,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000661009_2-20260925084925.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -16998,7 +17615,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:19+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F705",
       "name": "SECRID X FREITAG",
       "official_attributes": {
@@ -17018,12 +17635,17 @@
       "sku": "F705_010000661010",
       "source_key": "F705",
       "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:39+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:03+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000661010"
@@ -17039,7 +17661,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000663272_2-20261027144957.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17119,7 +17741,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000672971_2-20260717133550.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17162,7 +17784,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000672993_2-20260717133654.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17203,7 +17825,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000672997_2-20260717133705.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17244,7 +17866,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000673000_2-20260717133713.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17287,7 +17909,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000673014_2-20260717133754.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:19+00:00",
+      "last_seen_at": "2026-10-30T16:06:03+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17373,6 +17995,86 @@
         }
       ],
       "url": "https://freitag.ch/products/rf640-rollin?v=010000522957"
+    },
+    "RF640-07_010000538678": {
+      "currency": "USD",
+      "family": "F640",
+      "first_seen_at": "2026-10-30T16:06:10+00:00",
+      "full_name": "RF640 ROLLIN",
+      "id": "RF640-07_010000538678",
+      "images": [
+        "https://frtg-product-images.s3.amazonaws.com/010000538678_1-20261021173903.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000538678_2-20261021173905.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000538678_3-20261021173906.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000538678_4-20261021173908.png"
+      ],
+      "is_relisted": false,
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
+      "listing_count": 1,
+      "missing_checks": 0,
+      "model": "RF640",
+      "name": "ROLLIN",
+      "official_attributes": {
+        "description": "Shoulder Bag",
+        "design": "Bild/Foto",
+        "finish": "matt",
+        "good_type": "UNIKAT"
+      },
+      "official_item_number": "010000538678",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0004,
+          "coarse_entropy": 6.076,
+          "column_jump_ratio": 0.0,
+          "dominant_color_ratio": 0.1736,
+          "edge_density": 0.0393,
+          "entropy": 5.906,
+          "meaningful_colors": 10.0,
+          "meaningful_hues": 2.0,
+          "nearest_history_hash_distance": 67.0,
+          "row_jump_ratio": 0.1111,
+          "saturation": 0.0923
+        },
+        "ocr_available": true,
+        "ocr_text": "ae Sa",
+        "perceptual_hash": "03c00000000000000098fffffffffffffffffffffffffffffffffff3fff1ffff",
+        "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 12,
+        "worth_email": false
+      },
+      "previous_status": null,
+      "price": 125.0,
+      "primary_color": "白色",
+      "secondary_colors": [
+        "digitaldruck"
+      ],
+      "sku": "RF640-07_010000538678",
+      "source_key": "RF640",
+      "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
+      "status": "available",
+      "status_history": [
+        {
+          "at": "2026-10-30T16:06:10+00:00",
+          "reason": "new",
+          "status": "available"
+        }
+      ],
+      "url": "https://freitag.ch/products/rf640-rollin?v=010000538678"
     },
     "RF640-07_010000538681": {
       "currency": "USD",
@@ -17482,6 +18184,90 @@
       ],
       "url": "https://freitag.ch/products/rf640-rollin?v=010000538689"
     },
+    "RF640-07_010000538695": {
+      "currency": "USD",
+      "family": "F640",
+      "first_seen_at": "2026-10-30T16:06:10+00:00",
+      "full_name": "RF640 ROLLIN",
+      "id": "RF640-07_010000538695",
+      "images": [
+        "https://frtg-product-images.s3.amazonaws.com/010000538695_1-20261021174054.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000538695_2-20261021174055.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000538695_3-20261021174057.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000538695_4-20261021174058.png"
+      ],
+      "is_relisted": false,
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
+      "listing_count": 1,
+      "missing_checks": 0,
+      "model": "RF640",
+      "name": "ROLLIN",
+      "official_attributes": {
+        "description": "Shoulder Bag",
+        "design": "Bild/Foto",
+        "finish": "matt",
+        "good_type": "UNIKAT"
+      },
+      "official_item_number": "010000538695",
+      "pattern": {
+        "categories": [
+          "A 文字与印刷标志",
+          "B 特殊几何图案",
+          "R1 完整文字/印刷主题"
+        ],
+        "confidence": 0.77,
+        "level": "疑似稀有",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0021,
+          "coarse_entropy": 7.464,
+          "column_jump_ratio": 0.2698,
+          "dominant_color_ratio": 0.1267,
+          "edge_density": 0.1454,
+          "entropy": 7.15,
+          "meaningful_colors": 12.0,
+          "meaningful_hues": 0.0,
+          "nearest_history_hash_distance": 79.0,
+          "row_jump_ratio": 0.0952,
+          "saturation": 0.0409
+        },
+        "ocr_available": true,
+        "ocr_text": "Raia Set om ti 4 i ae FREITAC",
+        "perceptual_hash": "07c0018000000000e1c7f3cff3cfe3bfebaeeb2ce96de94de84de849c8d1c8dd",
+        "reason": "OCR 识别到较完整字符“Raia Set om ti 4 i ae FREITAC”；检测到较明显的条纹/几何边界候选；多个大面积色块并存，且没有单一颜色占绝对主导；图像细节复杂度高，作为已有印刷/结构信号的辅助证据；检测到与参考图相似的完整印刷文字“Raia Set om ti 4 i ae FREITAC”",
+        "reference_match": {
+          "categories": [
+            "R1 完整文字/印刷主题"
+          ],
+          "email_eligible": true,
+          "matched": true,
+          "reason": "检测到与参考图相似的完整印刷文字“Raia Set om ti 4 i ae FREITAC”",
+          "score": 72,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 88,
+        "worth_email": true
+      },
+      "previous_status": null,
+      "price": 125.0,
+      "primary_color": "白色",
+      "secondary_colors": [
+        "digitaldruck"
+      ],
+      "sku": "RF640-07_010000538695",
+      "source_key": "RF640",
+      "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
+      "status": "available",
+      "status_history": [
+        {
+          "at": "2026-10-30T16:06:10+00:00",
+          "reason": "new",
+          "status": "available"
+        }
+      ],
+      "url": "https://freitag.ch/products/rf640-rollin?v=010000538695"
+    },
     "RF640-07_010000538697": {
       "currency": "USD",
       "family": "F640",
@@ -17495,7 +18281,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538697_4-20261021174111.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -17511,7 +18297,9 @@
       "previous_status": "available",
       "price": 125.0,
       "primary_color": "蓝色",
-      "secondary_colors": [],
+      "secondary_colors": [
+        "黄色"
+      ],
       "sku": "RF640-07_010000538697",
       "source_key": "RF640",
       "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
@@ -17646,7 +18434,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-30T09:14:26+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "RF640",
       "name": "ROLLIN",
       "official_attributes": {
@@ -17666,12 +18454,17 @@
       "sku": "RF640-07_010000538740",
       "source_key": "RF640",
       "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:48+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-30T16:06:10+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/rf640-rollin?v=010000538740"
@@ -17689,7 +18482,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538742_4-20261022133640.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -17734,7 +18527,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538746_4-20261022133646.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -17889,7 +18682,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538751_4-20261022123645.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -18100,7 +18893,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538766_4-20261022135000.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -18202,7 +18995,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538778_4-20261022133810.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -18356,7 +19149,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538799_4-20261022135123.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -18401,7 +19194,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538800_4-20261022133912.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -18502,7 +19295,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000547282_4-20261022135135.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-30T09:14:26+00:00",
+      "last_seen_at": "2026-10-30T16:06:10+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -19047,6 +19840,18 @@
       "finished_at": "2026-10-30T09:14:35+00:00",
       "new_events": 3,
       "started_at": "2026-10-30T09:14:16+00:00",
+      "status": "success",
+      "successful_sources": 5,
+      "warnings": [
+        "F640: 官方商品页返回 404；仅记录源不可用，不视为售罄"
+      ]
+    },
+    {
+      "errors": [],
+      "failed_sources": 0,
+      "finished_at": "2026-10-30T16:06:30+00:00",
+      "new_events": 11,
+      "started_at": "2026-10-30T16:05:55+00:00",
       "status": "success",
       "successful_sources": 5,
       "warnings": [
