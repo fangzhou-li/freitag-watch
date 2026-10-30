@@ -1,7 +1,7 @@
 {
-  "last_attempt_at": "2026-10-29T23:26:33+00:00",
-  "last_success_at": "2026-10-29T23:26:50+00:00",
-  "last_full_success_at": "2026-10-29T23:26:50+00:00",
+  "last_attempt_at": "2026-10-30T02:45:13+00:00",
+  "last_success_at": "2026-10-30T02:45:28+00:00",
+  "last_full_success_at": "2026-10-30T02:45:28+00:00",
   "last_error": null,
   "initialized_at": "2026-10-27T13:03:35+00:00",
   "models": {
@@ -9,11 +9,11 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-29T23:26:39+00:00",
+      "last_checked_at": "2026-10-30T02:45:19+00:00",
       "last_error": null,
       "last_page_f_number": "F141",
       "last_status_code": 200,
-      "last_success_at": "2026-10-29T23:26:39+00:00",
+      "last_success_at": "2026-10-30T02:45:19+00:00",
       "last_valid_count": 42,
       "source_url": "https://freitag.ch/en_US/products/f141-beryl"
     },
@@ -21,11 +21,11 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-29T23:26:33+00:00",
+      "last_checked_at": "2026-10-30T02:45:13+00:00",
       "last_error": null,
       "last_page_f_number": "F171",
       "last_status_code": 200,
-      "last_success_at": "2026-10-29T23:26:33+00:00",
+      "last_success_at": "2026-10-30T02:45:13+00:00",
       "last_valid_count": 39,
       "source_url": "https://freitag.ch/en_US/products/f171-laura"
     },
@@ -33,18 +33,18 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-29T23:26:46+00:00",
+      "last_checked_at": "2026-10-30T02:45:27+00:00",
       "last_error": null,
       "last_page_f_number": "F41",
       "last_status_code": 200,
-      "last_success_at": "2026-10-29T23:26:46+00:00",
+      "last_success_at": "2026-10-30T02:45:27+00:00",
       "last_valid_count": 57,
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0"
     },
     "F640": {
-      "consecutive_failures": 24,
+      "consecutive_failures": 25,
       "initialized": false,
-      "last_checked_at": "2026-10-29T23:26:42+00:00",
+      "last_checked_at": "2026-10-30T02:45:22+00:00",
       "last_error": "官方商品页返回 404；仅记录源不可用，不视为售罄",
       "last_status_code": 404,
       "last_valid_count": 0,
@@ -54,11 +54,11 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-29T23:26:37+00:00",
+      "last_checked_at": "2026-10-30T02:45:17+00:00",
       "last_error": null,
       "last_page_f_number": "F705",
       "last_status_code": 200,
-      "last_success_at": "2026-10-29T23:26:37+00:00",
+      "last_success_at": "2026-10-30T02:45:17+00:00",
       "last_valid_count": 44,
       "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag"
     },
@@ -66,11 +66,11 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-29T23:26:44+00:00",
+      "last_checked_at": "2026-10-30T02:45:24+00:00",
       "last_error": null,
       "last_page_f_number": "RF640",
       "last_status_code": 200,
-      "last_success_at": "2026-10-29T23:26:44+00:00",
+      "last_success_at": "2026-10-30T02:45:24+00:00",
       "last_valid_count": 10,
       "source_url": "https://freitag.ch/en_US/products/rf640-rollin"
     }
@@ -78,8 +78,8 @@
   "counts": {
     "total": 296,
     "available": 192,
-    "possibly_sold": 4,
-    "sold": 100
+    "possibly_sold": 0,
+    "sold": 104
   },
   "disclosure": "公开：商品编号、官方图片链接、价格、颜色、库存历史与图案判断。不会公开 Bark 密钥、邮箱、SMTP 密码或其他 Secrets。"
 }
