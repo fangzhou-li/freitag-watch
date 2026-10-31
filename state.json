@@ -2177,23 +2177,39 @@
       "product_id": "F171_000004393673",
       "source_key": "F171",
       "type": "relisted"
+    },
+    {
+      "bark": {
+        "attempts": 1,
+        "prepared_at": "2026-10-31T11:52:45+00:00",
+        "status": "sending"
+      },
+      "detected_at": "2026-10-31T11:52:31+00:00",
+      "email": {
+        "attempts": 0,
+        "status": "pending"
+      },
+      "id": "F705_010000660820:new:1",
+      "product_id": "F705_010000660820",
+      "source_key": "F705",
+      "type": "new"
     }
   ],
   "initialized_at": "2026-10-27T13:03:35+00:00",
-  "last_attempt_at": "2026-10-31T06:00:21+00:00",
+  "last_attempt_at": "2026-10-31T11:52:27+00:00",
   "last_error": null,
-  "last_full_success_at": "2026-10-31T06:00:36+00:00",
-  "last_success_at": "2026-10-31T06:00:36+00:00",
+  "last_full_success_at": "2026-10-31T11:52:44+00:00",
+  "last_success_at": "2026-10-31T11:52:44+00:00",
   "models": {
     "F141": {
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-31T06:00:26+00:00",
+      "last_checked_at": "2026-10-31T11:52:34+00:00",
       "last_error": null,
       "last_page_f_number": "F141",
       "last_status_code": 200,
-      "last_success_at": "2026-10-31T06:00:26+00:00",
+      "last_success_at": "2026-10-31T11:52:34+00:00",
       "last_valid_count": 43,
       "source_url": "https://freitag.ch/en_US/products/f141-beryl"
     },
@@ -2201,30 +2217,30 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-31T06:00:21+00:00",
+      "last_checked_at": "2026-10-31T11:52:28+00:00",
       "last_error": null,
       "last_page_f_number": "F171",
       "last_status_code": 200,
-      "last_success_at": "2026-10-31T06:00:21+00:00",
-      "last_valid_count": 40,
+      "last_success_at": "2026-10-31T11:52:28+00:00",
+      "last_valid_count": 39,
       "source_url": "https://freitag.ch/en_US/products/f171-laura"
     },
     "F41": {
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-31T06:00:33+00:00",
+      "last_checked_at": "2026-10-31T11:52:42+00:00",
       "last_error": null,
       "last_page_f_number": "F41",
       "last_status_code": 200,
-      "last_success_at": "2026-10-31T06:00:33+00:00",
-      "last_valid_count": 59,
+      "last_success_at": "2026-10-31T11:52:42+00:00",
+      "last_valid_count": 52,
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0"
     },
     "F640": {
-      "consecutive_failures": 30,
+      "consecutive_failures": 31,
       "initialized": false,
-      "last_checked_at": "2026-10-31T06:00:29+00:00",
+      "last_checked_at": "2026-10-31T11:52:37+00:00",
       "last_error": "官方商品页返回 404；仅记录源不可用，不视为售罄",
       "last_status_code": 404,
       "last_valid_count": 0,
@@ -2234,11 +2250,11 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-31T06:00:24+00:00",
+      "last_checked_at": "2026-10-31T11:52:31+00:00",
       "last_error": null,
       "last_page_f_number": "F705",
       "last_status_code": 200,
-      "last_success_at": "2026-10-31T06:00:24+00:00",
+      "last_success_at": "2026-10-31T11:52:31+00:00",
       "last_valid_count": 44,
       "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag"
     },
@@ -2246,17 +2262,17 @@
       "anomaly_streak": 0,
       "consecutive_failures": 0,
       "initialized": true,
-      "last_checked_at": "2026-10-31T06:00:31+00:00",
+      "last_checked_at": "2026-10-31T11:52:39+00:00",
       "last_error": null,
       "last_page_f_number": "RF640",
       "last_status_code": 200,
-      "last_success_at": "2026-10-31T06:00:31+00:00",
+      "last_success_at": "2026-10-31T11:52:39+00:00",
       "last_valid_count": 8,
       "source_url": "https://freitag.ch/en_US/products/rf640-rollin"
     }
   },
   "policy_check": {
-    "checked_at": "2026-10-31T06:00:21+00:00",
+    "checked_at": "2026-10-31T11:52:27+00:00",
     "ok": true,
     "result": "商品页允许访问；/api 禁止访问且本项目未使用该路径"
   },
@@ -2382,7 +2398,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230133_4-20260605153410.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2461,7 +2477,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230139_4-20260605153421.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2541,7 +2557,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230145_4-20260623170633.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2586,7 +2602,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230182_4-20260605153436.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2629,7 +2645,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230233_4-20260605153519.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2674,7 +2690,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230265_4-20260605153543.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2717,7 +2733,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230266_4-20260605153549.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2760,7 +2776,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230299_4-20260605153555.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2806,7 +2822,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004230326_4-20260623171626.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2902,7 +2918,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004233853_4-20260324113129.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -2947,7 +2963,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004233876_4-20260327083224.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3080,7 +3096,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004235285_4-20260324103302.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3158,7 +3174,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306028_4-20260605153759.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3238,7 +3254,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306100_4-20260624125734.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3283,7 +3299,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306173_4-20260623171715.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3326,7 +3342,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306255_4-20260605153849.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3404,7 +3420,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004306304_4-20260605163238.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F141",
@@ -3497,7 +3513,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004307331_4-20260902154229.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3581,7 +3597,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004307386_4-20260807133647.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3624,7 +3640,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004307394_4-20260807133653.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3777,7 +3793,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004311232_4-20260326113403.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3822,7 +3838,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312255_4-20260624130047.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3865,7 +3881,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312288_4-20260624130052.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3910,7 +3926,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312523_4-20260327083559.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3953,7 +3969,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004312845_4-20260327083724.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -3998,7 +4014,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004325505_4-20260327083823.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4096,7 +4112,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004325940_4-20260324104207.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4141,7 +4157,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004325976_4-20260324104219.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4221,7 +4237,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004432949_4-20260807130836.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4266,7 +4282,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004432969_4-20260807133719.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4312,7 +4328,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464513_4-20260807130907.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4357,7 +4373,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464521_4-20260807133742.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4402,7 +4418,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464543_4-20260807130931.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4484,7 +4500,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464546_4-20260807133817.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F141",
@@ -4583,7 +4599,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464618_4-20260807130952.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4629,7 +4645,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464716_4-20260807133940.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4783,7 +4799,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464827_4-20260807131001.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4829,7 +4845,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004464992_4-20260807134034.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4874,7 +4890,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004488826_4-20260807131128.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4954,7 +4970,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004488948_4-20260902154434.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -4999,7 +5015,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004501551_4-20260902154451.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -5097,7 +5113,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004501685_4-20260902154548.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -5195,7 +5211,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004501737_4-20260902154629.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:26+00:00",
+      "last_seen_at": "2026-10-31T11:52:34+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F141",
@@ -5244,7 +5260,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004245170_4-20261005165806.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5289,7 +5305,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393578_4-20261005171827.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5388,8 +5404,8 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393673_3-20261002161314.png",
         "https://frtg-product-images.s3.amazonaws.com/000004393673_4-20261002161316.png"
       ],
-      "is_relisted": true,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "is_relisted": false,
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F171",
@@ -5437,7 +5453,7 @@
         "score": 26,
         "worth_email": false
       },
-      "previous_status": "sold",
+      "previous_status": "available",
       "price": 250.0,
       "primary_color": "蓝色",
       "secondary_colors": [
@@ -5562,7 +5578,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393725_4-20261005165916.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F171",
@@ -5810,7 +5826,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393778_4-20261005171921.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5855,7 +5871,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393799_4-20261002161412.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -5900,7 +5916,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393866_4-20261002161435.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6049,7 +6065,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393938_4-20261014140309.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6094,7 +6110,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004393964_4-20261002161007.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6324,7 +6340,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004407667_4-20261002143352.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6547,7 +6563,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004407725_4-20261002143404.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6671,7 +6687,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:21+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F171",
       "name": "LAURA",
       "official_attributes": {
@@ -6724,12 +6740,17 @@
       "sku": "F171_000004408086",
       "source_key": "F171",
       "source_url": "https://freitag.ch/en_US/products/f171-laura",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-30T20:56:23+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:28+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f171-laura?v=000004408086"
@@ -6747,7 +6768,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408203_4-20261028143757.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6827,7 +6848,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408227_4-20261028155211.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -6907,7 +6928,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408235_4-20261028143831.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7531,7 +7552,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408376_4-20261028144115.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7615,7 +7636,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408385_4-20261028144124.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7699,7 +7720,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408388_4-20261028155302.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7873,7 +7894,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408426_4-20261028144209.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -7951,7 +7972,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408449_4-20261028155421.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8122,7 +8143,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408457_4-20261028155429.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8202,7 +8223,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408466_4-20261028155439.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8282,7 +8303,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408485_4-20261028144244.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8362,7 +8383,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408498_4-20261028144318.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8626,7 +8647,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004408636_4-20261028144440.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8710,7 +8731,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409019_4-20261005172142.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8753,7 +8774,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409026_4-20261005172148.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8853,7 +8874,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409043_4-20261005212818.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8898,7 +8919,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409071_4-20261005170153.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -8943,7 +8964,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409105_4-20261002144535.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9118,7 +9139,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409233_4-20261028144554.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9251,7 +9272,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409322_4-20261002144557.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9571,7 +9592,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409418_4-20261028144613.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9651,7 +9672,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409434_4-20261002143632.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F171",
@@ -9746,7 +9767,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409451_4-20261028144619.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9830,7 +9851,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409455_4-20261005170451.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9873,7 +9894,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409459_4-20261002144631.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9916,7 +9937,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004409460_4-20261005172439.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -9961,7 +9982,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004410308_4-20261002150201.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -10057,7 +10078,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004410386_4-20261002144641.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:21+00:00",
+      "last_seen_at": "2026-10-31T11:52:28+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F171",
@@ -10358,7 +10379,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004199797_4-20260620192308.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10404,7 +10425,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004231662_4-20260115163631.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10451,7 +10472,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004231935_4-20260515152956.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10640,7 +10661,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004239217_4-20260814123919.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10861,7 +10882,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004240558_4-20260331144344.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -10994,7 +11015,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248246_4-20260820164157.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11233,7 +11254,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248861_4-20260910082415.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -11332,7 +11353,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004248985_4-20260827163407.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11412,7 +11433,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004249264_4-20260910082609.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11547,7 +11568,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004250964_4-20260605083527.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11627,7 +11648,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004258460_4-20260708164531.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11780,7 +11801,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004276202_4-20260805144120.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -11876,7 +11897,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004276236_4-20260814125351.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -11956,7 +11977,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004276997_4-20260805144718.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12001,7 +12022,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004283391_4-20260612154150.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12139,7 +12160,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004283438_4-20260612155432.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12223,7 +12244,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004289591_4-20260617123427.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12270,7 +12291,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -12325,12 +12346,17 @@
       "sku": "F41_000004290732",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-31T00:17:32+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004290732"
@@ -12348,7 +12374,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004293351_4-20260605083754.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12485,7 +12511,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -12549,12 +12575,17 @@
       "sku": "F41_000004358100",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-30T20:56:36+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004358100"
@@ -12877,7 +12908,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004374634_4-20260708165228.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -12973,7 +13004,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004380416_4-20260331145031.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13016,7 +13047,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396253_4-20261014083423.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13497,7 +13528,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -13518,12 +13549,17 @@
       "sku": "F41_000004396564",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-27T13:03:51+00:00",
           "reason": "baseline",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004396564"
@@ -13541,7 +13577,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396578_4-20261014153026.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -13626,7 +13662,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004396723_4-20261014153119.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14221,7 +14257,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398691_4-20261014083721.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -14314,7 +14350,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398729_4-20261013170004.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14359,7 +14395,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398753_4-20261013170019.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14529,7 +14565,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398797_4-20261014083759.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14629,7 +14665,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398817_4-20261013170054.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -14725,7 +14761,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398902_4-20261014083827.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14835,7 +14871,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398919_4-20261014083850.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -14970,7 +15006,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398967_4-20261014083903.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15109,7 +15145,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398982_4-20261013170614.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15155,7 +15191,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004398997_4-20261014083935.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15233,7 +15269,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004400623_4-20260921181905.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15508,7 +15544,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402570_4-20261006083755.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -15603,7 +15639,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402576_4-20261014084019.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15649,7 +15685,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402630_4-20261006083853.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15696,7 +15732,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 2,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -15751,7 +15787,7 @@
       "sku": "F41_000004402658",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-29T13:49:20+00:00",
@@ -15772,6 +15808,11 @@
           "at": "2026-10-30T16:06:12+00:00",
           "reason": "relisted",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004402658"
@@ -15789,7 +15830,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004402671_4-20261006083906.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -15959,7 +16000,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404573_4-20261014084139.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -16004,7 +16045,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404582_4-20261006084126.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -16051,7 +16092,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T00:17:32+00:00",
       "listing_count": 1,
-      "missing_checks": 1,
+      "missing_checks": 2,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -16101,7 +16142,7 @@
         "score": 98,
         "worth_email": true
       },
-      "previous_status": "available",
+      "previous_status": "possibly_sold",
       "price": 230.0,
       "primary_color": "灰色",
       "secondary_colors": [
@@ -16111,7 +16152,7 @@
       "sku": "F41_000004404600",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "possibly_sold",
+      "status": "sold",
       "status_history": [
         {
           "at": "2026-10-30T20:56:36+00:00",
@@ -16122,6 +16163,11 @@
           "at": "2026-10-31T06:00:33+00:00",
           "reason": "first_missing_check",
           "status": "possibly_sold"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "two_valid_checks",
+          "status": "sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004404600"
@@ -16139,7 +16185,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404826_4-20261014084227.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -16489,7 +16535,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404915_4-20261014084316.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -16644,7 +16690,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404940_4-20261014084350.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -16744,7 +16790,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404971_4-20261013170202.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -16789,7 +16835,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404983_4-20261014084417.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -16939,7 +16985,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404992_4-20261014084423.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -17020,7 +17066,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404993_4-20261006084600.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -17065,7 +17111,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004404998_4-20261006084613.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -17168,7 +17214,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -17224,12 +17270,17 @@
       "sku": "F41_000004405666",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-29T13:49:20+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004405666"
@@ -17247,7 +17298,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004405908_4-20260921183111.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 2,
       "missing_checks": 0,
       "model": "F41",
@@ -17342,7 +17393,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004405962_4-20260921103855.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -17422,7 +17473,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004468085_4-20260722194716.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -17504,7 +17555,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -17561,12 +17612,17 @@
       "sku": "F41_000004488523",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-28T08:50:48+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004488523"
@@ -17586,7 +17642,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:33+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F41",
       "name": "HAWAII FIVE-0",
       "official_attributes": {
@@ -17642,12 +17698,17 @@
       "sku": "F41_000004493056",
       "source_key": "F41",
       "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-31T00:17:32+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:42+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004493056"
@@ -17665,7 +17726,7 @@
         "https://frtg-product-images.s3.amazonaws.com/000004493232_4-20260629153928.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:33+00:00",
+      "last_seen_at": "2026-10-31T11:52:42+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F41",
@@ -17950,7 +18011,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000570159_2-20250128145044.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -17991,7 +18052,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000570203_2-20250128145351.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18032,7 +18093,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000574263_2-20250318172720.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18124,7 +18185,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000593634_2-20260512121705.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18167,7 +18228,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000593668_2-20260512121847.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18369,7 +18430,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000599903_2-20251110080906.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18410,7 +18471,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000599952_2-20251110081137.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18451,7 +18512,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000599976_2-20251110081248.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18492,7 +18553,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000611514_2-20251208153730.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18533,7 +18594,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000611546_2-20251208153919.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18574,7 +18635,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000611568_2-20251208154027.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18615,7 +18676,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000622870_2-20260414194603.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18647,6 +18708,84 @@
       ],
       "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000622870"
     },
+    "F705_010000660820": {
+      "currency": "USD",
+      "family": "F705",
+      "first_seen_at": "2026-10-31T11:52:31+00:00",
+      "full_name": "F705 SECRID X FREITAG",
+      "id": "F705_010000660820",
+      "images": [
+        "https://frtg-product-images.s3.amazonaws.com/010000660820_1-20260925083800.png",
+        "https://frtg-product-images.s3.amazonaws.com/010000660820_2-20260925083802.png"
+      ],
+      "is_relisted": false,
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
+      "listing_count": 1,
+      "missing_checks": 0,
+      "model": "F705",
+      "name": "SECRID X FREITAG",
+      "official_attributes": {
+        "description": "Cardprotector Wallet",
+        "design": "uni 1-farbig",
+        "finish": "matt",
+        "good_type": "UNIKAT"
+      },
+      "official_item_number": "010000660820",
+      "pattern": {
+        "categories": [
+          "B 特殊几何图案"
+        ],
+        "confidence": 0.45,
+        "level": "普通",
+        "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+        "metrics": {
+          "coarse_edge_density": 0.0,
+          "coarse_entropy": 3.418,
+          "column_jump_ratio": 0.0,
+          "dominant_color_ratio": 0.1421,
+          "edge_density": 0.027,
+          "entropy": 3.775,
+          "meaningful_colors": 11.0,
+          "meaningful_hues": 0.0,
+          "nearest_history_hash_distance": 44.0,
+          "row_jump_ratio": 0.0317,
+          "saturation": 0.1312
+        },
+        "ocr_available": true,
+        "ocr_text": "",
+        "perceptual_hash": "100004001e0037007f807f007f807ff37ffe7ff8fff1fffffff7fff1ffff0000",
+        "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+        "reference_match": {
+          "categories": [],
+          "email_eligible": false,
+          "matched": false,
+          "reason": "未命中用户参考稀有皮的主题特征",
+          "score": 0,
+          "source_count": 16,
+          "version": "2026-10-28-user-reference-v2"
+        },
+        "score": 12,
+        "worth_email": false
+      },
+      "previous_status": null,
+      "price": 120.0,
+      "primary_color": "白色",
+      "secondary_colors": [
+        "灰色"
+      ],
+      "sku": "F705_010000660820",
+      "source_key": "F705",
+      "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag",
+      "status": "available",
+      "status_history": [
+        {
+          "at": "2026-10-31T11:52:31+00:00",
+          "reason": "new",
+          "status": "available"
+        }
+      ],
+      "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000660820"
+    },
     "F705_010000660830": {
       "currency": "USD",
       "family": "F705",
@@ -18658,7 +18797,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660830_2-20260925083848.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18792,7 +18931,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660844_2-20260925083933.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18888,7 +19027,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660849_2-20260925083950.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -18929,7 +19068,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660851_2-20260925083959.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19006,7 +19145,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660857_2-20260925084022.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19049,7 +19188,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660868_2-20260925084100.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19092,7 +19231,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660887_2-20260925084158.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19136,7 +19275,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660891_2-20260925084213.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19177,7 +19316,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660898_2-20260925084239.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19220,7 +19359,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660903_2-20260925084257.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19265,7 +19404,7 @@
       "is_relisted": false,
       "last_seen_at": "2026-10-31T06:00:24+00:00",
       "listing_count": 1,
-      "missing_checks": 0,
+      "missing_checks": 1,
       "model": "F705",
       "name": "SECRID X FREITAG",
       "official_attributes": {
@@ -19326,12 +19465,17 @@
       "sku": "F705_010000660916",
       "source_key": "F705",
       "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag",
-      "status": "available",
+      "status": "possibly_sold",
       "status_history": [
         {
           "at": "2026-10-29T13:49:10+00:00",
           "reason": "new",
           "status": "available"
+        },
+        {
+          "at": "2026-10-31T11:52:31+00:00",
+          "reason": "first_missing_check",
+          "status": "possibly_sold"
         }
       ],
       "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000660916"
@@ -19347,7 +19491,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660919_2-20260925084414.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19443,7 +19587,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660922_2-20260925084422.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19484,7 +19628,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660932_2-20260925084450.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19525,7 +19669,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660933_2-20260925084457.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19568,7 +19712,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660935_2-20260925084510.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19612,7 +19756,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660945_2-20260925084543.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19653,7 +19797,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660947_2-20260925084548.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19696,7 +19840,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660950_2-20260925084558.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19788,7 +19932,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660959_2-20260925084634.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19831,7 +19975,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660974_2-20260925084716.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19875,7 +20019,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660985_2-20260925084757.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19918,7 +20062,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000660986_2-20260925084800.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -19962,7 +20106,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000661009_2-20260925084925.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20056,7 +20200,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000663204_2-20261027144644.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20136,7 +20280,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000663212_2-20261027144706.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20216,7 +20360,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000663265_2-20261027144935.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20292,7 +20436,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000663272_2-20261027144957.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20372,7 +20516,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000672971_2-20260717133550.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20415,7 +20559,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000672993_2-20260717133654.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20456,7 +20600,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000672997_2-20260717133705.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20550,7 +20694,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000673014_2-20260717133754.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:24+00:00",
+      "last_seen_at": "2026-10-31T11:52:31+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "F705",
@@ -20942,7 +21086,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538697_4-20261021174111.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21148,7 +21292,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538742_4-20261022133640.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21193,7 +21337,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538746_4-20261022133646.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21348,7 +21492,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538751_4-20261022123645.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21671,7 +21815,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538778_4-20261022133810.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21825,7 +21969,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538799_4-20261022135123.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21870,7 +22014,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000538800_4-20261022133912.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -21971,7 +22115,7 @@
         "https://frtg-product-images.s3.amazonaws.com/010000547282_4-20261022135135.png"
       ],
       "is_relisted": false,
-      "last_seen_at": "2026-10-31T06:00:31+00:00",
+      "last_seen_at": "2026-10-31T11:52:39+00:00",
       "listing_count": 1,
       "missing_checks": 0,
       "model": "RF640",
@@ -22564,6 +22708,18 @@
       "finished_at": "2026-10-31T06:00:36+00:00",
       "new_events": 1,
       "started_at": "2026-10-31T06:00:21+00:00",
+      "status": "success",
+      "successful_sources": 5,
+      "warnings": [
+        "F640: 官方商品页返回 404；仅记录源不可用，不视为售罄"
+      ]
+    },
+    {
+      "errors": [],
+      "failed_sources": 0,
+      "finished_at": "2026-10-31T11:52:44+00:00",
+      "new_events": 1,
+      "started_at": "2026-10-31T11:52:27+00:00",
       "status": "success",
       "successful_sources": 5,
       "warnings": [
