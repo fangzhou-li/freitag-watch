@@ -7257,8 +7257,10 @@
     {
       "bark": {
         "attempts": 1,
+        "last_error": null,
         "prepared_at": "2026-11-09T06:57:35+00:00",
-        "status": "sending"
+        "sent_at": "2026-11-09T06:57:37+00:00",
+        "status": "sent"
       },
       "detected_at": "2026-11-09T06:57:31+00:00",
       "email": {
@@ -7273,8 +7275,10 @@
     {
       "bark": {
         "attempts": 1,
+        "last_error": null,
         "prepared_at": "2026-11-09T06:57:35+00:00",
-        "status": "sending"
+        "sent_at": "2026-11-09T06:57:37+00:00",
+        "status": "sent"
       },
       "detected_at": "2026-11-09T06:57:31+00:00",
       "email": {
