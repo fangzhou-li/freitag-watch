@@ -31,6 +31,22 @@ TARGETS: Tuple[ProductTarget, ...] = (
     ProductTarget("F640", "F640", "ROLLIN", "f640-rollin", "F640", legacy=True),
     ProductTarget("RF640", "RF640", "ROLLIN", "rf640-rollin", "F640"),
     ProductTarget("F41", "F41", "HAWAII FIVE-0", "f41-hawaii-five-0", "F41"),
+    # F-Archive: discontinued models sold to F-ederation members. Their
+    # individual product pages are public (same __NEXT_DATA__ inventory
+    # payload as regular models), so no login is needed to monitor them.
+    ProductTarget("F52-X", "F52-X", "MIAMI VICE", "f52-x-miami-vice", "F-ARCHIVE"),
+    ProductTarget("F201-X", "F201-X", "PETE", "f201-x-pete", "F-ARCHIVE"),
+    ProductTarget("F07-X", "F07-X", "CHUCK", "f07-x-chuck", "F-ARCHIVE"),
+    ProductTarget("F08-X", "F08-X", "DAN", "f08-x-dan", "F-ARCHIVE"),
+    ProductTarget("F729", "F729", "EXTRA+LARGE", "f729-extralarge", "F-ARCHIVE"),
+    ProductTarget("RF533", "RF533", "FAY", "rf533-fay", "F-ARCHIVE"),
+    ProductTarget("RF555", "RF555", "CAROLINE", "rf555-caroline", "F-ARCHIVE"),
+    ProductTarget("F558", "F558", "LEONARD", "f558-leonard", "F-ARCHIVE"),
+    ProductTarget("F560", "F560", "STERLING", "f560-sterling", "F-ARCHIVE"),
+    ProductTarget("F600", "F600", "CARTER", "f600-carter", "F-ARCHIVE"),
+    ProductTarget("F660", "F660", "JIMMY", "f660-jimmy", "F-ARCHIVE"),
+    ProductTarget("F733", "F733", "ZIPPELIN", "f733-zippelin", "F-ARCHIVE"),
+    ProductTarget("RF725", "RF725", "TRUE BLUE BRANDON", "rf725-true-blue-brandon", "F-ARCHIVE"),
 )
 
 

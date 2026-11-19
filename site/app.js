@@ -24,16 +24,19 @@ function saveLocal() {
   localStorage.setItem('fw:feedback-notes', JSON.stringify(state.feedbackNotes));
 }
 
+const ARCHIVE_MODELS = ['F52-X','F201-X','F07-X','F08-X','F729','RF533','RF555','F558','F560','F600','F660','F733','RF725'];
+
 function applyUrl() {
   const params = new URLSearchParams(location.search);
   const view = params.get('view'); const model = params.get('model');
   if (['latest','current','patterns','history','favorites','status'].includes(view)) state.view = view;
-  if (['F171','F705','F141','F640','RF640','F41'].includes(model)) state.model = model === 'RF640' ? 'F640' : model;
+  if (['F171','F705','F141','F640','RF640','F41','F-ARCHIVE',...ARCHIVE_MODELS].includes(model)) state.model = model === 'RF640' ? 'F640' : model;
   if (model === 'RF640') state.source = 'RF640';
 }
 
 function modelMatch(p) {
   if (state.model === 'ALL') return true;
+  if (state.model === 'F-ARCHIVE') return p.family === 'F-ARCHIVE';
   if (state.model === 'F640') return p.family === 'F640' && (state.source === 'ALL' || p.source_key === state.source);
   return p.model === state.model || p.family === state.model;
 }
@@ -155,7 +158,7 @@ function renderCard(product) {
 
 function renderStatus() {
   const panel = $('#status-panel'); const s = state.status; const models = s.models || {};
-  const modelRows = ['F171','F705','F141','F640','RF640','F41'].map(key => {
+  const modelRows = ['F171','F705','F141','F640','RF640','F41',...ARCHIVE_MODELS].map(key => {
     const m = models[key] || {}; const health = m.last_error ? `异常：${m.last_error}` : (m.initialized ? '正常' : '尚未建立基线');
     return `<p><strong>${key}</strong> · ${m.last_valid_count ?? 0} 件 · ${health}<br>上次成功：${fullBeijing(m.last_success_at)}</p>`;
   }).join('');
@@ -169,6 +172,9 @@ function render() {
   $$('#model-nav .chip').forEach(b => b.classList.toggle('selected', b.dataset.model === state.model));
   $$('#f640-subnav .chip').forEach(b => b.classList.toggle('selected', b.dataset.source === state.source));
   $('#f640-subnav').classList.toggle('hidden', state.model !== 'F640');
+  const inArchive = state.model === 'F-ARCHIVE' || ARCHIVE_MODELS.includes(state.model);
+  $$('#farchive-subnav .chip').forEach(b => b.classList.toggle('selected', b.dataset.model === state.model));
+  $('#farchive-subnav').classList.toggle('hidden', !inArchive);
   document.body.className = `${state.view}-view`;
   const statusMode = state.view === 'status'; $('#grid').classList.toggle('hidden', statusMode); $('#status-panel').classList.toggle('hidden', !statusMode);
   renderControls();
@@ -208,7 +214,7 @@ async function boot() {
   } catch (error) {
     $('#summary').textContent=`真实库存数据读取失败：${error.message}`; return;
   }
-  $$('#model-nav .chip').forEach(b => b.onclick=()=>{state.model=b.dataset.model;state.source='ALL';render();});
+  $$('#model-nav .chip, #farchive-subnav .chip').forEach(b => b.onclick=()=>{state.model=b.dataset.model;state.source='ALL';render();});
   $$('#f640-subnav .chip').forEach(b => b.onclick=()=>{state.source=b.dataset.source;render();});
   $$('.tab').forEach(b => b.onclick=()=>{state.view=b.dataset.view;render();scrollTo({top:0,behavior:'smooth'});});
   $('#gallery-close').onclick=()=>$('#gallery-dialog').close(); $('#info-button').onclick=()=>$('#info-dialog').showModal(); $('#info-close').onclick=()=>$('#info-dialog').close();

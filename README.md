@@ -1,6 +1,6 @@
 # FREITAG WATCH
 
-一套面向 iPhone 的 FREITAG 独立实物库存监控系统。它每 30 分钟读取 FREITAG 官方公开商品页，按真实 SKU/条码记录 F171 LAURA、F705 SECRID X FREITAG、F141 BERYL、F640/RF640 ROLLIN 和 F41 HAWAII FIVE-0，保存完整历史，并在真正新增或确认重新上架时发送 Bark 通知。
+一套面向 iPhone 的 FREITAG 独立实物库存监控系统。它每 30 分钟读取 FREITAG 官方公开商品页，按真实 SKU/条码记录 F171 LAURA、F705 SECRID X FREITAG、F141 BERYL、F640/RF640 ROLLIN、F41 HAWAII FIVE-0，以及 F-Archive 的 13 个停产型号（F52-X MIAMI VICE、F201-X PETE、F07-X CHUCK、F08-X DAN、F729 EXTRA+LARGE、RF533 FAY、RF555 CAROLINE、F558 LEONARD、F560 STERLING、F600 CARTER、F660 JIMMY、F733 ZIPPELIN、RF725 TRUE BLUE BRANDON），保存完整历史，并在真正新增或确认重新上架时发送 Bark 通知。
 
 > 这是独立的个人工具，不是 FREITAG 官方网站，也与 FREITAG lab. AG 无隶属关系。购买、价格和库存以官方页面为准。“疑似稀有”只是筛选线索，不是官方或市场鉴定。
 
@@ -20,7 +20,7 @@
 
 ## 合规与访问范围
 
-开发前已核验：`https://freitag.ch/robots.txt` 允许普通商品页，明确禁止 `/api`。程序每次运行都会重新检查 robots 规则；检查失败或商品页被禁止时会停止，不会继续采集。本项目不访问 `/api`，不绕过验证码、登录、封锁或反爬限制；一轮只请求 robots 和 6 个型号页，型号间默认等待 1.5 秒，并使用有限次数指数退避。
+开发前已核验：`https://freitag.ch/robots.txt` 允许普通商品页，明确禁止 `/api`。程序每次运行都会重新检查 robots 规则；检查失败或商品页被禁止时会停止，不会继续采集。本项目不访问 `/api`，不绕过验证码、登录、封锁或反爬限制；一轮只请求 robots 和 19 个型号页，型号间默认等待 1.5 秒，并使用有限次数指数退避。F-Archive 各型号的独立商品页同样是公开商品页（与常规型号共用同一 `__NEXT_DATA__` 库存数据），无需登录即可监控。
 
 FREITAG 的一般条款声明网站内容受版权保护。本项目不下载并重新发布图片文件，只在个人非商业画廊中引用官方商品图片 URL，并明确标注来源和非官方身份。公开部署前请自行评估适用法律与官方政策；若 FREITAG 要求停止，应立即停用工作流和网页。
 
@@ -82,6 +82,7 @@ python3 -m venv .venv
 ## 修改型号或频率
 
 - 型号配置：`freitag_watch/config.py` 的 `TARGETS`。
+- 新型号首轮只建基线、不做图案分析；要给 F-Archive 现有库存补分析，在 Actions 里选 `backfill_patterns` 模式跑一次（或本地跑 `python -m freitag_watch.cli backfill-patterns --family F-ARCHIVE`），只写图案分数，不产生事件、不发通知。
 - 频率：`.github/workflows/monitor.yml` 的 cron；`0,30 * * * *` 表示每小时整点和第 30 分钟运行。
 - 图案阈值：`freitag_watch/analyzer.py`。亮色/高饱和度本身不会加分。
 - 收藏/反馈只在当前浏览器的 Local Storage；“我的收藏”支持导出/导入，不提供虚假的跨设备同步。反馈会在当前设备调整特殊图案排序（误判/不喜欢降低相似类别，喜欢/值得收藏提高相似类别），不会上传浏览记录。
