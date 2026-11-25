@@ -1,5 +1,569 @@
 [
   {
+    "id": "F41_000004358252",
+    "sku": "F41_000004358252",
+    "official_item_number": "000004358252",
+    "model": "F41",
+    "family": "F41",
+    "name": "HAWAII FIVE-0",
+    "full_name": "F41 HAWAII FIVE-0",
+    "source_key": "F41",
+    "source_url": "https://freitag.ch/en_US/products/f41-hawaii-five-0",
+    "url": "https://freitag.ch/products/f41-hawaii-five-0?v=000004358252",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/000004358252_1-20261014123318.png",
+      "https://frtg-product-images.s3.amazonaws.com/000004358252_2-20261014123320.png",
+      "https://frtg-product-images.s3.amazonaws.com/000004358252_3-20261014123322.png",
+      "https://frtg-product-images.s3.amazonaws.com/000004358252_4-20261014123324.png"
+    ],
+    "price": 240.0,
+    "currency": "USD",
+    "primary_color": "黑色",
+    "secondary_colors": [
+      "红色",
+      "digitaldruck"
+    ],
+    "official_attributes": {
+      "description": "Messenger Extra Small",
+      "design": "Form asymm./unregelmässig",
+      "finish": "glänzend",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:36+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "B 特殊几何图案",
+        "R5 彩虹、虹彩或光束图案"
+      ],
+      "confidence": 0.65,
+      "level": "疑似稀有",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0257,
+        "coarse_entropy": 6.517,
+        "column_jump_ratio": 0.1587,
+        "dominant_color_ratio": 0.1537,
+        "edge_density": 0.0917,
+        "entropy": 6.285,
+        "meaningful_colors": 10.0,
+        "meaningful_hues": 3.0,
+        "nearest_history_hash_distance": 46.0,
+        "row_jump_ratio": 0.0952,
+        "saturation": 0.3561
+      },
+      "ocr_available": true,
+      "ocr_text": "y",
+      "perceptual_hash": "03010b01018001fd03ff07fc060006000600063986018203800380038003c006",
+      "reason": "检测到较明显的条纹/几何边界候选；多个大面积色块并存，且没有单一颜色占绝对主导；检测到丰富色相或方向性光束特征，接近参考图中的彩虹/虹彩皮",
+      "reference_match": {
+        "categories": [
+          "R5 彩虹、虹彩或光束图案"
+        ],
+        "email_eligible": true,
+        "matched": true,
+        "reason": "检测到丰富色相或方向性光束特征，接近参考图中的彩虹/虹彩皮",
+        "score": 74,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 74,
+      "worth_email": true
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
+    "id": "RF640-07_010000539495",
+    "sku": "RF640-07_010000539495",
+    "official_item_number": "010000539495",
+    "model": "RF640",
+    "family": "F640",
+    "name": "ROLLIN",
+    "full_name": "RF640 ROLLIN",
+    "source_key": "RF640",
+    "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
+    "url": "https://freitag.ch/products/rf640-rollin?v=010000539495",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/010000539495_1-20261109163418.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539495_2-20261109163420.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539495_3-20261109163422.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539495_4-20261109163424.png"
+    ],
+    "price": 125.0,
+    "currency": "USD",
+    "primary_color": "灰色",
+    "secondary_colors": [
+      "黑色",
+      "银色"
+    ],
+    "official_attributes": {
+      "description": "Shoulder Bag",
+      "design": "Form asymm./unregelmässig",
+      "finish": "glänzend",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:33+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "A 文字与印刷标志",
+        "B 特殊几何图案"
+      ],
+      "confidence": 0.65,
+      "level": "值得关注",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0006,
+        "coarse_entropy": 6.639,
+        "column_jump_ratio": 0.0317,
+        "dominant_color_ratio": 0.1181,
+        "edge_density": 0.0395,
+        "entropy": 6.42,
+        "meaningful_colors": 12.0,
+        "meaningful_hues": 0.0,
+        "nearest_history_hash_distance": 20.0,
+        "row_jump_ratio": 0.0952,
+        "saturation": 0.0673
+      },
+      "ocr_available": true,
+      "ocr_text": "eal 1 Be oi Fs a a 0 FR TAG",
+      "perceptual_hash": "07f003c000000000fffffff8ffe0ffc0ff80ff00fe00fe00fc00fc00f801f801",
+      "reason": "OCR 识别到较完整字符“eal 1 Be oi Fs a a 0 FR TAG”；多个大面积色块并存，且没有单一颜色占绝对主导",
+      "reference_match": {
+        "categories": [],
+        "email_eligible": false,
+        "matched": false,
+        "reason": "未命中用户参考稀有皮的主题特征",
+        "score": 0,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 67,
+      "worth_email": false
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
+    "id": "RF640-07_010000539503",
+    "sku": "RF640-07_010000539503",
+    "official_item_number": "010000539503",
+    "model": "RF640",
+    "family": "F640",
+    "name": "ROLLIN",
+    "full_name": "RF640 ROLLIN",
+    "source_key": "RF640",
+    "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
+    "url": "https://freitag.ch/products/rf640-rollin?v=010000539503",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/010000539503_1-20261123084331.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539503_2-20261123084333.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539503_3-20261123084336.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539503_4-20261123084339.png"
+    ],
+    "price": 125.0,
+    "currency": "USD",
+    "primary_color": "红色",
+    "secondary_colors": [
+      "绿色"
+    ],
+    "official_attributes": {
+      "description": "Shoulder Bag",
+      "design": "Kunterbunt/Chrüsimüsi",
+      "finish": "glänzend",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:33+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "A 文字与印刷标志",
+        "B 特殊几何图案"
+      ],
+      "confidence": 0.65,
+      "level": "值得关注",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0006,
+        "coarse_entropy": 6.441,
+        "column_jump_ratio": 0.0476,
+        "dominant_color_ratio": 0.1706,
+        "edge_density": 0.0396,
+        "entropy": 6.423,
+        "meaningful_colors": 11.0,
+        "meaningful_hues": 3.0,
+        "nearest_history_hash_distance": 34.0,
+        "row_jump_ratio": 0.0794,
+        "saturation": 0.6391
+      },
+      "ocr_available": true,
+      "ocr_text": "oral me ti MH ii Ht H SHAN su FREITAC al",
+      "perceptual_hash": "0ff003c0000000007f0ffc0ff84ff82e703ef81e701e60076007a00580018001",
+      "reason": "OCR 识别到较完整字符“oral me ti MH ii Ht H SHAN su FREITAC al”；多个大面积色块并存，且没有单一颜色占绝对主导",
+      "reference_match": {
+        "categories": [],
+        "email_eligible": false,
+        "matched": false,
+        "reason": "未命中用户参考稀有皮的主题特征",
+        "score": 0,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 67,
+      "worth_email": false
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
+    "id": "RF640-07_010000539748",
+    "sku": "RF640-07_010000539748",
+    "official_item_number": "010000539748",
+    "model": "RF640",
+    "family": "F640",
+    "name": "ROLLIN",
+    "full_name": "RF640 ROLLIN",
+    "source_key": "RF640",
+    "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
+    "url": "https://freitag.ch/products/rf640-rollin?v=010000539748",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/010000539748_1-20261123093745.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539748_2-20261123093747.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539748_3-20261123093748.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539748_4-20261123093750.png"
+    ],
+    "price": 125.0,
+    "currency": "USD",
+    "primary_color": "蓝色",
+    "secondary_colors": [
+      "白色"
+    ],
+    "official_attributes": {
+      "description": "Shoulder Bag",
+      "design": "Form asymm./unregelmässig",
+      "finish": "matt",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:33+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "B 特殊几何图案"
+      ],
+      "confidence": 0.45,
+      "level": "普通",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0004,
+        "coarse_entropy": 7.019,
+        "column_jump_ratio": 0.0794,
+        "dominant_color_ratio": 0.1701,
+        "edge_density": 0.056,
+        "entropy": 6.561,
+        "meaningful_colors": 10.0,
+        "meaningful_hues": 2.0,
+        "nearest_history_hash_distance": 62.0,
+        "row_jump_ratio": 0.1111,
+        "saturation": 0.4573
+      },
+      "ocr_available": true,
+      "ocr_text": "He al",
+      "perceptual_hash": "07e000800000000007c0cff01ff83d3c711ee106c107c1038101810181018101",
+      "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+      "reference_match": {
+        "categories": [],
+        "email_eligible": false,
+        "matched": false,
+        "reason": "未命中用户参考稀有皮的主题特征",
+        "score": 0,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 12,
+      "worth_email": false
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
+    "id": "RF640-07_010000539776",
+    "sku": "RF640-07_010000539776",
+    "official_item_number": "010000539776",
+    "model": "RF640",
+    "family": "F640",
+    "name": "ROLLIN",
+    "full_name": "RF640 ROLLIN",
+    "source_key": "RF640",
+    "source_url": "https://freitag.ch/en_US/products/rf640-rollin",
+    "url": "https://freitag.ch/products/rf640-rollin?v=010000539776",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/010000539776_1-20261123085057.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539776_2-20261123085058.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539776_3-20261123085059.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000539776_4-20261123085100.png"
+    ],
+    "price": 125.0,
+    "currency": "USD",
+    "primary_color": "蓝色",
+    "secondary_colors": [
+      "黑色"
+    ],
+    "official_attributes": {
+      "description": "Shoulder Bag",
+      "design": "uni 1-farbig",
+      "finish": "glänzend",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:33+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "B 特殊几何图案"
+      ],
+      "confidence": 0.45,
+      "level": "普通",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0002,
+        "coarse_entropy": 5.989,
+        "column_jump_ratio": 0.0317,
+        "dominant_color_ratio": 0.1748,
+        "edge_density": 0.0353,
+        "entropy": 5.944,
+        "meaningful_colors": 12.0,
+        "meaningful_hues": 1.0,
+        "nearest_history_hash_distance": 7.0,
+        "row_jump_ratio": 0.0317,
+        "saturation": 0.6315
+      },
+      "ocr_available": true,
+      "ocr_text": "",
+      "perceptual_hash": "03c0000000000000ffffffffffffffff7fff7ffffffffffffffffff1fff7ffef",
+      "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+      "reference_match": {
+        "categories": [],
+        "email_eligible": false,
+        "matched": false,
+        "reason": "未命中用户参考稀有皮的主题特征",
+        "score": 0,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 12,
+      "worth_email": false
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
+    "id": "F705_010000665736",
+    "sku": "F705_010000665736",
+    "official_item_number": "010000665736",
+    "model": "F705",
+    "family": "F705",
+    "name": "SECRID X FREITAG",
+    "full_name": "F705 SECRID X FREITAG",
+    "source_key": "F705",
+    "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag",
+    "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000665736",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/010000665736_1-20261113134137.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000665736_2-20261113134138.png"
+    ],
+    "price": 120.0,
+    "currency": "USD",
+    "primary_color": "白色",
+    "secondary_colors": [
+      "黑色"
+    ],
+    "official_attributes": {
+      "description": "Cardprotector Wallet",
+      "design": "Form symm./geradlinig",
+      "finish": "glänzend",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:25+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "B 特殊几何图案"
+      ],
+      "confidence": 0.45,
+      "level": "普通",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0,
+        "coarse_entropy": 5.611,
+        "column_jump_ratio": 0.0317,
+        "dominant_color_ratio": 0.1146,
+        "edge_density": 0.0514,
+        "entropy": 5.969,
+        "meaningful_colors": 12.0,
+        "meaningful_hues": 0.0,
+        "nearest_history_hash_distance": 0.0,
+        "row_jump_ratio": 0.0317,
+        "saturation": 0.0519
+      },
+      "ocr_available": true,
+      "ocr_text": "",
+      "perceptual_hash": "ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "reason": "多个大面积色块并存，且没有单一颜色占绝对主导",
+      "reference_match": {
+        "categories": [],
+        "email_eligible": false,
+        "matched": false,
+        "reason": "未命中用户参考稀有皮的主题特征",
+        "score": 0,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 12,
+      "worth_email": false
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
+    "id": "F705_010000665795",
+    "sku": "F705_010000665795",
+    "official_item_number": "010000665795",
+    "model": "F705",
+    "family": "F705",
+    "name": "SECRID X FREITAG",
+    "full_name": "F705 SECRID X FREITAG",
+    "source_key": "F705",
+    "source_url": "https://freitag.ch/en_US/products/f705-secrid-x-freitag",
+    "url": "https://freitag.ch/products/f705-secrid-x-freitag?v=010000665795",
+    "images": [
+      "https://frtg-product-images.s3.amazonaws.com/010000665795_1-20261113134504.png",
+      "https://frtg-product-images.s3.amazonaws.com/010000665795_2-20261113134508.png"
+    ],
+    "price": 120.0,
+    "currency": "USD",
+    "primary_color": "红色",
+    "secondary_colors": [],
+    "official_attributes": {
+      "description": "Cardprotector Wallet",
+      "design": "uni 1-farbig",
+      "finish": "glänzend",
+      "good_type": "UNIKAT"
+    },
+    "first_seen_at": "2026-11-25T10:50:25+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": null,
+    "missing_checks": 0,
+    "listing_count": 1,
+    "is_relisted": false,
+    "pattern": {
+      "categories": [
+        "B 特殊几何图案",
+        "R5 彩虹、虹彩或光束图案"
+      ],
+      "confidence": 0.65,
+      "level": "疑似稀有",
+      "method": "用户参考稀有皮特征 v1（文字、具象/摄影、黑白图像、虹彩）+ 本地可解释规则，未使用付费视觉 API",
+      "metrics": {
+        "coarse_edge_density": 0.0,
+        "coarse_entropy": 5.288,
+        "column_jump_ratio": 0.0,
+        "dominant_color_ratio": 0.1262,
+        "edge_density": 0.0381,
+        "entropy": 5.43,
+        "meaningful_colors": 12.0,
+        "meaningful_hues": 12.0,
+        "nearest_history_hash_distance": 20.0,
+        "row_jump_ratio": 0.0,
+        "saturation": 0.7441
+      },
+      "ocr_available": true,
+      "ocr_text": "",
+      "perceptual_hash": "700f701f700f700f700f701f600f600f600f600f600760076003600360014001",
+      "reason": "多个大面积色块并存，且没有单一颜色占绝对主导；检测到丰富色相或方向性光束特征，接近参考图中的彩虹/虹彩皮",
+      "reference_match": {
+        "categories": [
+          "R5 彩虹、虹彩或光束图案"
+        ],
+        "email_eligible": true,
+        "matched": true,
+        "reason": "检测到丰富色相或方向性光束特征，接近参考图中的彩虹/虹彩皮",
+        "score": 74,
+        "source_count": 16,
+        "version": "2026-10-28-user-reference-v2"
+      },
+      "score": 74,
+      "worth_email": true
+    },
+    "status_history": [
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "new",
+        "status": "available"
+      }
+    ]
+  },
+  {
     "id": "F558_010000580959",
     "sku": "F558_010000580959",
     "official_item_number": "010000580959",
@@ -25,9 +589,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:30+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -103,9 +667,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -182,9 +746,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -263,9 +827,9 @@
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
     "last_seen_at": "2026-11-25T01:58:08+00:00",
-    "status": "available",
-    "previous_status": null,
-    "missing_checks": 0,
+    "status": "possibly_sold",
+    "previous_status": "available",
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -309,6 +873,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -343,9 +912,9 @@
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
     "last_seen_at": "2026-11-25T01:58:08+00:00",
-    "status": "available",
-    "previous_status": null,
-    "missing_checks": 0,
+    "status": "possibly_sold",
+    "previous_status": "available",
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -393,6 +962,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -424,9 +998,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -503,9 +1077,9 @@
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
     "last_seen_at": "2026-11-25T01:58:08+00:00",
-    "status": "available",
-    "previous_status": null,
-    "missing_checks": 0,
+    "status": "possibly_sold",
+    "previous_status": "available",
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -549,6 +1123,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -583,9 +1162,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -665,9 +1244,9 @@
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
     "last_seen_at": "2026-11-25T01:58:08+00:00",
-    "status": "available",
-    "previous_status": null,
-    "missing_checks": 0,
+    "status": "possibly_sold",
+    "previous_status": "available",
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -711,6 +1290,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -744,9 +1328,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:08+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -824,9 +1408,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -908,9 +1492,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:58:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -992,9 +1576,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:57:56+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -1070,9 +1654,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-25T01:57:56+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
-    "previous_status": null,
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -1149,7 +1733,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:28+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1225,7 +1809,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:28+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1301,7 +1885,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:28+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1377,7 +1961,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:28+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1453,7 +2037,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:28+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1533,7 +2117,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:17+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1614,9 +2198,9 @@
     },
     "first_seen_at": "2026-11-24T18:00:08+00:00",
     "last_seen_at": "2026-11-24T18:00:08+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -1666,6 +2250,11 @@
         "at": "2026-11-25T01:58:06+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -1700,7 +2289,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:08+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1780,7 +2369,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:08+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -1862,9 +2451,9 @@
     },
     "first_seen_at": "2026-11-24T18:00:08+00:00",
     "last_seen_at": "2026-11-25T01:58:06+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -1908,6 +2497,11 @@
         "at": "2026-11-24T18:00:08+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -1939,7 +2533,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:00+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2018,9 +2612,9 @@
     },
     "first_seen_at": "2026-11-24T18:00:00+00:00",
     "last_seen_at": "2026-11-24T18:00:00+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -2069,6 +2663,11 @@
         "at": "2026-11-25T01:57:58+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -2101,7 +2700,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:00+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2179,7 +2778,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T18:00:00+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2259,9 +2858,9 @@
     },
     "first_seen_at": "2026-11-24T18:00:00+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -2305,6 +2904,11 @@
         "at": "2026-11-24T18:00:00+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -2336,7 +2940,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-24T17:59:56+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2498,7 +3102,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2578,7 +3182,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2654,7 +3258,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2734,7 +3338,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2814,7 +3418,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2894,7 +3498,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -2978,7 +3582,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -3062,7 +3666,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -3138,7 +3742,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -3214,7 +3818,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:26:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -3298,7 +3902,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -3560,9 +4164,9 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "possibly_sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 1,
     "is_relisted": false,
@@ -3745,9 +4349,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:46+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -3796,6 +4400,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -3831,9 +4440,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:46+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -3882,6 +4491,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -4006,9 +4620,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:46+00:00",
     "last_seen_at": "2026-11-25T01:58:08+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -4052,6 +4666,11 @@
         "at": "2026-11-23T22:25:46+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -4176,7 +4795,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4256,7 +4875,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4336,7 +4955,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4420,7 +5039,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4501,7 +5120,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4581,7 +5200,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4661,7 +5280,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4745,7 +5364,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4915,7 +5534,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -4995,7 +5614,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -5079,7 +5698,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -5159,7 +5778,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:38+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -5239,7 +5858,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:38+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -5319,7 +5938,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:38+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -5578,7 +6197,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:36+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -5661,9 +6280,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:36+00:00",
     "last_seen_at": "2026-11-24T18:00:00+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -5712,6 +6331,11 @@
         "at": "2026-11-25T01:57:58+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -5744,9 +6368,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:36+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -5790,6 +6414,11 @@
         "at": "2026-11-23T22:25:36+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -6008,9 +6637,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:33+00:00",
     "last_seen_at": "2026-11-24T17:59:56+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -6059,6 +6688,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -6090,7 +6724,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:33+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -6169,9 +6803,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:33+00:00",
     "last_seen_at": "2026-11-25T01:57:56+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -6215,6 +6849,11 @@
         "at": "2026-11-23T22:25:33+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -6340,9 +6979,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:33+00:00",
     "last_seen_at": "2026-11-25T01:57:56+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -6386,6 +7025,11 @@
         "at": "2026-11-23T22:25:33+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -6417,7 +7061,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T22:25:33+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -6589,9 +7233,9 @@
     },
     "first_seen_at": "2026-11-23T22:25:33+00:00",
     "last_seen_at": "2026-11-24T17:59:56+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -6640,6 +7284,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -6673,12 +7322,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-23T10:59:06+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 1,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 2,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -6695,7 +7344,7 @@
         "entropy": 6.544,
         "meaningful_colors": 12.0,
         "meaningful_hues": 2.0,
-        "nearest_history_hash_distance": 29.0,
+        "nearest_history_hash_distance": 0.0,
         "row_jump_ratio": 0.0635,
         "saturation": 0.571
       },
@@ -6730,6 +7379,11 @@
         "at": "2026-11-24T06:11:44+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -6763,12 +7417,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 2,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -6949,12 +7603,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-23T10:59:06+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 1,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 2,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -6971,7 +7625,7 @@
         "entropy": 6.311,
         "meaningful_colors": 10.0,
         "meaningful_hues": 2.0,
-        "nearest_history_hash_distance": 52.0,
+        "nearest_history_hash_distance": 0.0,
         "row_jump_ratio": 0.127,
         "saturation": 0.1572
       },
@@ -7006,6 +7660,11 @@
         "at": "2026-11-24T06:11:44+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -7039,12 +7698,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 2,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -7400,12 +8059,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-23T10:59:06+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 1,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 2,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -7424,7 +8083,7 @@
         "entropy": 6.132,
         "meaningful_colors": 10.0,
         "meaningful_hues": 1.0,
-        "nearest_history_hash_distance": 12.0,
+        "nearest_history_hash_distance": 0.0,
         "row_jump_ratio": 0.0635,
         "saturation": 0.7069
       },
@@ -7461,6 +8120,11 @@
         "at": "2026-11-24T06:11:44+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -7495,9 +8159,9 @@
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -7546,6 +8210,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -8119,12 +8788,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 2,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -8214,12 +8883,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-23T10:59:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 2,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -8579,7 +9248,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T21:56:25+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -8661,9 +9330,9 @@
     },
     "first_seen_at": "2026-11-22T21:56:22+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": true,
     "pattern": {
@@ -8727,6 +9396,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -8759,9 +9433,9 @@
     },
     "first_seen_at": "2026-11-22T21:56:22+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": true,
     "pattern": {
@@ -8825,6 +9499,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -8857,9 +9536,9 @@
     },
     "first_seen_at": "2026-11-22T21:56:22+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": true,
     "pattern": {
@@ -8923,6 +9602,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -8957,9 +9641,9 @@
     },
     "first_seen_at": "2026-11-22T21:56:22+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": true,
     "pattern": {
@@ -9023,6 +9707,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -9239,7 +9928,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T21:56:20+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -9319,7 +10008,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T21:56:20+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -9396,7 +10085,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T21:56:12+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -9489,7 +10178,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T21:56:12+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10028,7 +10717,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:21+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10194,7 +10883,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:21+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10271,7 +10960,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:21+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10529,7 +11218,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:03+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10625,9 +11314,9 @@
     },
     "first_seen_at": "2026-11-22T16:30:03+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": true,
     "pattern": {
@@ -10691,6 +11380,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -10724,7 +11418,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:00+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10805,9 +11499,9 @@
     },
     "first_seen_at": "2026-11-22T16:30:00+00:00",
     "last_seen_at": "2026-11-25T01:58:06+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -10851,6 +11545,11 @@
         "at": "2026-11-22T16:30:00+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -10884,7 +11583,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:00+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -10964,7 +11663,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:30:00+00:00",
-    "last_seen_at": "2026-11-25T01:58:06+00:00",
+    "last_seen_at": "2026-11-25T10:50:33+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -11496,9 +12195,9 @@
     },
     "first_seen_at": "2026-11-22T16:29:49+00:00",
     "last_seen_at": "2026-11-24T17:59:56+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -11557,6 +12256,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -11777,9 +12481,9 @@
     },
     "first_seen_at": "2026-11-22T16:29:49+00:00",
     "last_seen_at": "2026-11-24T17:59:56+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": true,
     "pattern": {
@@ -11843,6 +12547,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -11876,7 +12585,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-22T16:29:49+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -11972,9 +12681,9 @@
     },
     "first_seen_at": "2026-11-22T08:25:03+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -12038,6 +12747,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -12072,9 +12786,9 @@
     },
     "first_seen_at": "2026-11-22T08:25:03+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -12138,6 +12852,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -12374,9 +13093,9 @@
     },
     "first_seen_at": "2026-11-22T08:25:03+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -12435,6 +13154,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -12736,9 +13460,9 @@
     },
     "first_seen_at": "2026-11-21T21:16:48+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -12802,6 +13526,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -13104,7 +13833,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T21:16:41+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -13199,7 +13928,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T21:16:41+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -13297,9 +14026,9 @@
     },
     "first_seen_at": "2026-11-21T21:16:41+00:00",
     "last_seen_at": "2026-11-25T01:58:01+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -13358,6 +14087,11 @@
         "at": "2026-11-24T18:00:03+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -14257,12 +14991,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T15:44:34+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 3,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -15553,12 +16287,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T15:44:19+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 3,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -15663,12 +16397,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T15:44:19+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 3,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -16602,7 +17336,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T07:31:09+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -16885,7 +17619,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T07:31:09+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -17741,12 +18475,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-21T00:27:09+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 3,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -17849,7 +18583,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-20T18:54:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -17960,9 +18694,9 @@
     },
     "first_seen_at": "2026-11-20T18:54:48+00:00",
     "last_seen_at": "2026-11-25T01:58:08+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 3,
     "is_relisted": false,
     "pattern": {
@@ -18036,6 +18770,11 @@
         "at": "2026-11-24T06:11:44+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -18621,9 +19360,9 @@
     },
     "first_seen_at": "2026-11-20T18:54:46+00:00",
     "last_seen_at": "2026-11-25T01:58:06+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -18667,6 +19406,11 @@
         "at": "2026-11-20T18:54:46+00:00",
         "reason": "new",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -18790,9 +19534,9 @@
     },
     "first_seen_at": "2026-11-20T18:54:46+00:00",
     "last_seen_at": "2026-11-24T18:00:08+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": {
@@ -18841,6 +19585,11 @@
         "at": "2026-11-25T01:58:06+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -18872,7 +19621,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-20T18:54:41+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -18966,12 +19715,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-20T18:54:38+00:00",
-    "last_seen_at": "2026-11-22T16:29:52+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 1,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 2,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -18988,7 +19737,7 @@
         "entropy": 6.443,
         "meaningful_colors": 12.0,
         "meaningful_hues": 1.0,
-        "nearest_history_hash_distance": 27.0,
+        "nearest_history_hash_distance": 0.0,
         "row_jump_ratio": 0.0,
         "saturation": 0.4997
       },
@@ -19023,6 +19772,11 @@
         "at": "2026-11-23T02:04:45+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -19464,12 +20218,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-20T10:42:18+00:00",
-    "last_seen_at": "2026-11-21T21:16:48+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 2,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 3,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -19536,6 +20290,11 @@
         "at": "2026-11-22T08:25:03+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -20481,7 +21240,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20522,7 +21281,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20563,7 +21322,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20604,7 +21363,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20645,7 +21404,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20686,7 +21445,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20727,7 +21486,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20768,7 +21527,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20860,7 +21619,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20901,7 +21660,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20942,7 +21701,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -20985,7 +21744,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21026,7 +21785,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21067,7 +21826,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21108,7 +21867,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21149,7 +21908,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21190,7 +21949,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21233,7 +21992,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21274,7 +22033,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21315,7 +22074,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21358,7 +22117,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:16+00:00",
-    "last_seen_at": "2026-11-25T01:58:42+00:00",
+    "last_seen_at": "2026-11-25T10:51:12+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21401,7 +22160,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:14+00:00",
-    "last_seen_at": "2026-11-25T01:58:39+00:00",
+    "last_seen_at": "2026-11-25T10:51:09+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21444,7 +22203,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:14+00:00",
-    "last_seen_at": "2026-11-25T01:58:39+00:00",
+    "last_seen_at": "2026-11-25T10:51:09+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21600,7 +22359,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:14+00:00",
-    "last_seen_at": "2026-11-25T01:58:39+00:00",
+    "last_seen_at": "2026-11-25T10:51:09+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21645,7 +22404,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:14+00:00",
-    "last_seen_at": "2026-11-25T01:58:39+00:00",
+    "last_seen_at": "2026-11-25T10:51:09+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21692,7 +22451,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21741,7 +22500,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21790,7 +22549,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21833,7 +22592,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21876,7 +22635,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -21926,9 +22685,9 @@
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
     "last_seen_at": "2026-11-25T01:58:37+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": null,
@@ -21937,6 +22696,11 @@
         "at": "2026-11-19T19:45:11+00:00",
         "reason": "baseline",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:51:06+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -21971,7 +22735,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22020,7 +22784,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22065,7 +22829,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22110,7 +22874,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22157,7 +22921,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22200,7 +22964,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22247,7 +23011,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22294,7 +23058,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22337,7 +23101,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22380,7 +23144,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22427,7 +23191,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22470,7 +23234,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22513,7 +23277,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22560,7 +23324,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22605,7 +23369,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22654,7 +23418,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22699,7 +23463,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:11+00:00",
-    "last_seen_at": "2026-11-25T01:58:37+00:00",
+    "last_seen_at": "2026-11-25T10:51:06+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22743,9 +23507,9 @@
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
     "last_seen_at": "2026-11-24T18:00:39+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": null,
@@ -22759,6 +23523,11 @@
         "at": "2026-11-25T01:58:34+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:51:04+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -22790,7 +23559,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22833,7 +23602,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22876,7 +23645,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22919,7 +23688,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -22962,7 +23731,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23009,7 +23778,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23052,7 +23821,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23095,7 +23864,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23138,7 +23907,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23181,7 +23950,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23224,7 +23993,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:09+00:00",
-    "last_seen_at": "2026-11-25T01:58:34+00:00",
+    "last_seen_at": "2026-11-25T10:51:04+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23267,7 +24036,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:32+00:00",
+    "last_seen_at": "2026-11-25T10:51:01+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23363,7 +24132,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:32+00:00",
+    "last_seen_at": "2026-11-25T10:51:01+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23459,7 +24228,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:32+00:00",
+    "last_seen_at": "2026-11-25T10:51:01+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23502,7 +24271,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:06+00:00",
-    "last_seen_at": "2026-11-25T01:58:32+00:00",
+    "last_seen_at": "2026-11-25T10:51:01+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23543,7 +24312,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23584,7 +24353,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23625,7 +24394,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23666,7 +24435,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23707,7 +24476,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23748,7 +24517,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23789,7 +24558,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23830,7 +24599,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23871,7 +24640,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23912,7 +24681,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23953,7 +24722,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -23994,7 +24763,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24035,7 +24804,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24076,7 +24845,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24117,7 +24886,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24158,7 +24927,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24199,7 +24968,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24240,7 +25009,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24281,7 +25050,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24323,9 +25092,9 @@
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
     "last_seen_at": "2026-11-24T18:00:34+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": null,
@@ -24339,6 +25108,11 @@
         "at": "2026-11-25T01:58:30+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:58+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -24368,7 +25142,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24409,7 +25183,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24450,7 +25224,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24491,7 +25265,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:04+00:00",
-    "last_seen_at": "2026-11-25T01:58:30+00:00",
+    "last_seen_at": "2026-11-25T10:50:58+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24532,7 +25306,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24573,7 +25347,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24614,7 +25388,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24655,7 +25429,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24696,7 +25470,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24737,7 +25511,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24778,7 +25552,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -24975,7 +25749,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25172,7 +25946,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25213,7 +25987,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25560,7 +26334,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:45:01+00:00",
-    "last_seen_at": "2026-11-25T01:58:27+00:00",
+    "last_seen_at": "2026-11-25T10:50:55+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25754,7 +26528,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25795,7 +26569,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25836,7 +26610,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25877,7 +26651,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -25969,7 +26743,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26061,7 +26835,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26102,7 +26876,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26194,7 +26968,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26235,7 +27009,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26276,7 +27050,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26317,7 +27091,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26358,7 +27132,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26399,7 +27173,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26440,7 +27214,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26481,7 +27255,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26522,7 +27296,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26665,7 +27439,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26706,7 +27480,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26747,7 +27521,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:59+00:00",
-    "last_seen_at": "2026-11-25T01:58:24+00:00",
+    "last_seen_at": "2026-11-25T10:50:53+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26790,7 +27564,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:56+00:00",
-    "last_seen_at": "2026-11-25T01:58:22+00:00",
+    "last_seen_at": "2026-11-25T10:50:50+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26833,7 +27607,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:56+00:00",
-    "last_seen_at": "2026-11-25T01:58:22+00:00",
+    "last_seen_at": "2026-11-25T10:50:50+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26876,7 +27650,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:56+00:00",
-    "last_seen_at": "2026-11-25T01:58:22+00:00",
+    "last_seen_at": "2026-11-25T10:50:50+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26919,7 +27693,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:56+00:00",
-    "last_seen_at": "2026-11-25T01:58:22+00:00",
+    "last_seen_at": "2026-11-25T10:50:50+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -26962,7 +27736,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27005,7 +27779,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27048,7 +27822,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27089,7 +27863,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27132,7 +27906,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27173,7 +27947,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27214,7 +27988,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27257,7 +28031,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27300,7 +28074,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27343,7 +28117,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27387,7 +28161,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27428,7 +28202,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27469,7 +28243,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27512,7 +28286,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27555,7 +28329,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27596,7 +28370,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27639,7 +28413,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27680,7 +28454,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27723,7 +28497,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27766,7 +28540,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27807,7 +28581,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27848,7 +28622,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27891,7 +28665,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27934,7 +28708,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:54+00:00",
-    "last_seen_at": "2026-11-25T01:58:19+00:00",
+    "last_seen_at": "2026-11-25T10:50:47+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -27977,7 +28751,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28020,7 +28794,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28063,7 +28837,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28103,7 +28877,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28195,7 +28969,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28238,7 +29012,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28279,7 +29053,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28320,7 +29094,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28361,7 +29135,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28404,7 +29178,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28447,7 +29221,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28490,7 +29264,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28533,7 +29307,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28627,7 +29401,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28670,7 +29444,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28711,7 +29485,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:16+00:00",
+    "last_seen_at": "2026-11-25T10:50:44+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28753,7 +29527,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28798,7 +29572,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28841,7 +29615,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28884,7 +29658,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28929,7 +29703,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -28972,7 +29746,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29070,7 +29844,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29115,7 +29889,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29158,7 +29932,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29203,7 +29977,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29248,7 +30022,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29293,7 +30067,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29336,7 +30110,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29436,7 +30210,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29479,7 +30253,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29524,7 +30298,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29569,7 +30343,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29612,7 +30386,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29657,7 +30431,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29697,7 +30471,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29740,7 +30514,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29785,7 +30559,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:48+00:00",
-    "last_seen_at": "2026-11-25T01:58:14+00:00",
+    "last_seen_at": "2026-11-25T10:50:42+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29828,7 +30602,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29873,7 +30647,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29918,7 +30692,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -29963,7 +30737,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30008,7 +30782,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30051,7 +30825,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30152,9 +30926,9 @@
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
     "last_seen_at": "2026-11-24T18:00:14+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": null,
@@ -30168,6 +30942,11 @@
         "at": "2026-11-25T01:58:11+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:39+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -30201,7 +30980,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30244,7 +31023,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30287,7 +31066,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30330,7 +31109,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30376,9 +31155,9 @@
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
     "last_seen_at": "2026-11-24T18:00:14+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 1,
     "is_relisted": false,
     "pattern": null,
@@ -30392,6 +31171,11 @@
         "at": "2026-11-25T01:58:11+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:39+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -30423,7 +31207,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30468,7 +31252,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30511,7 +31295,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30554,7 +31338,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30599,7 +31383,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30642,7 +31426,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30687,7 +31471,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30732,7 +31516,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30775,7 +31559,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30820,7 +31604,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -30865,7 +31649,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T19:44:46+00:00",
-    "last_seen_at": "2026-11-25T01:58:11+00:00",
+    "last_seen_at": "2026-11-25T10:50:39+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -32015,12 +32799,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-19T13:38:55+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 3,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -33276,9 +34060,9 @@
     },
     "first_seen_at": "2026-11-18T23:13:06+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 3,
     "is_relisted": false,
     "pattern": {
@@ -33367,6 +34151,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -33491,7 +34280,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T16:48:29+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -34280,7 +35069,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T16:48:22+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -34390,7 +35179,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T16:48:22+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -34515,7 +35304,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T16:48:22+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -34623,7 +35412,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T16:48:19+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -34718,7 +35507,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T16:48:19+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -35371,9 +36160,9 @@
     },
     "first_seen_at": "2026-11-18T07:50:36+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 4,
     "is_relisted": true,
     "pattern": {
@@ -35467,6 +36256,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -36252,9 +37046,9 @@
     },
     "first_seen_at": "2026-11-18T00:32:07+00:00",
     "last_seen_at": "2026-11-24T18:00:03+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 3,
     "is_relisted": false,
     "pattern": {
@@ -36333,6 +37127,11 @@
         "at": "2026-11-25T01:58:01+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -36367,7 +37166,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-18T00:32:07+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -36593,9 +37392,9 @@
     },
     "first_seen_at": "2026-11-18T00:32:07+00:00",
     "last_seen_at": "2026-11-24T18:00:03+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -36659,6 +37458,11 @@
         "at": "2026-11-25T01:58:01+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -37426,9 +38230,9 @@
     },
     "first_seen_at": "2026-11-17T17:58:30+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
-    "previous_status": "possibly_sold",
-    "missing_checks": 0,
+    "status": "possibly_sold",
+    "previous_status": "available",
+    "missing_checks": 1,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -37497,6 +38301,11 @@
         "at": "2026-11-25T01:57:58+00:00",
         "reason": "returned_before_confirmation",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -38299,12 +39108,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-16T16:36:35+00:00",
-    "last_seen_at": "2026-11-20T10:42:18+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 3,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 4,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -38386,6 +39195,11 @@
         "at": "2026-11-21T00:27:22+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -40356,12 +41170,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-15T14:31:36+00:00",
-    "last_seen_at": "2026-11-22T16:29:52+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 2,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 3,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -40432,6 +41246,11 @@
         "at": "2026-11-23T02:04:45+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -46381,7 +47200,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-12T20:12:03+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -47973,12 +48792,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-12T20:12:03+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 4,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -48238,9 +49057,9 @@
     },
     "first_seen_at": "2026-11-12T03:57:16+00:00",
     "last_seen_at": "2026-11-24T18:00:03+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 4,
     "is_relisted": false,
     "pattern": {
@@ -48334,6 +49153,11 @@
         "at": "2026-11-25T01:58:01+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -49229,12 +50053,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-11T08:35:21+00:00",
-    "last_seen_at": "2026-11-23T10:58:58+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 5,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 6,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -49350,6 +50174,11 @@
         "at": "2026-11-24T06:11:37+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -49383,12 +50212,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-11T08:35:21+00:00",
-    "last_seen_at": "2026-11-23T10:58:58+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 4,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 5,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -49485,6 +50314,11 @@
         "at": "2026-11-24T06:11:37+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -53634,7 +54468,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-10T15:55:00+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -54438,7 +55272,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-10T07:52:04+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -54571,12 +55405,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-10T07:52:04+00:00",
-    "last_seen_at": "2026-11-22T16:29:52+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 3,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 4,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -54658,6 +55492,11 @@
         "at": "2026-11-23T02:04:45+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -58596,9 +59435,9 @@
     },
     "first_seen_at": "2026-11-10T00:46:02+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 4,
     "is_relisted": false,
     "pattern": {
@@ -58687,6 +59526,11 @@
         "at": "2026-11-23T22:25:36+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -59134,12 +59978,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-09T00:15:43+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 6,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -64304,7 +65148,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-06T22:29:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -64734,9 +65578,9 @@
     },
     "first_seen_at": "2026-11-06T22:29:39+00:00",
     "last_seen_at": "2026-11-24T17:59:56+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 4,
     "is_relisted": false,
     "pattern": {
@@ -64850,6 +65694,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -65062,9 +65911,9 @@
     },
     "first_seen_at": "2026-11-06T22:29:39+00:00",
     "last_seen_at": "2026-11-25T01:57:56+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 2,
     "is_relisted": false,
     "pattern": {
@@ -65123,6 +65972,11 @@
         "at": "2026-11-24T17:59:56+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -65156,7 +66010,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-06T22:29:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -66321,9 +67175,9 @@
     },
     "first_seen_at": "2026-11-06T17:36:04+00:00",
     "last_seen_at": "2026-11-25T01:58:01+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 6,
     "is_relisted": false,
     "pattern": {
@@ -66442,6 +67296,11 @@
         "at": "2026-11-23T22:25:38+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -66904,9 +67763,9 @@
     },
     "first_seen_at": "2026-11-06T17:36:04+00:00",
     "last_seen_at": "2026-11-25T01:58:01+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 6,
     "is_relisted": false,
     "pattern": {
@@ -67025,6 +67884,11 @@
         "at": "2026-11-23T22:25:38+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -73462,7 +74326,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-03T12:08:58+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -78463,12 +79327,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-01T16:52:51+00:00",
-    "last_seen_at": "2026-11-17T08:39:51+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 3,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 4,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -78554,6 +79418,11 @@
         "at": "2026-11-18T00:32:04+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -78583,7 +79452,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-11-01T16:52:51+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -79789,7 +80658,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-31T16:28:22+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -80264,9 +81133,9 @@
     },
     "first_seen_at": "2026-10-31T16:28:22+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 7,
     "is_relisted": true,
     "pattern": {
@@ -80405,6 +81274,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -80619,12 +81493,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-31T11:52:31+00:00",
-    "last_seen_at": "2026-11-17T00:34:16+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 2,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 3,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -80691,6 +81565,11 @@
         "at": "2026-11-17T17:58:30+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -82499,7 +83378,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-30T20:56:23+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -86115,7 +86994,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-29T13:49:10+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -88268,12 +89147,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-28T15:35:52+00:00",
-    "last_seen_at": "2026-11-24T06:11:31+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 3,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 4,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -88409,6 +89288,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -89223,10 +90107,10 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-28T15:35:52+00:00",
-    "last_seen_at": "2026-11-24T17:59:56+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
+    "status": "available",
+    "previous_status": "possibly_sold",
+    "missing_checks": 0,
     "listing_count": 5,
     "is_relisted": false,
     "pattern": {
@@ -89379,6 +90263,11 @@
         "at": "2026-11-25T01:57:56+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "returned_before_confirmation",
+        "status": "available"
       }
     ]
   },
@@ -91511,9 +92400,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:51+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 5,
     "is_relisted": true,
     "pattern": {
@@ -91622,6 +92511,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -91973,12 +92867,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 4,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -95135,12 +96029,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:51+00:00",
-    "last_seen_at": "2026-11-25T01:58:08+00:00",
+    "last_seen_at": "2026-11-25T10:50:36+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 7,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -96188,9 +97082,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:51+00:00",
     "last_seen_at": "2026-11-24T18:00:11+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 6,
     "is_relisted": false,
     "pattern": {
@@ -96324,6 +97218,11 @@
         "at": "2026-11-25T01:58:08+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:36+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -98588,9 +99487,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:48+00:00",
     "last_seen_at": "2026-11-25T01:58:06+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 3,
     "is_relisted": false,
     "pattern": {
@@ -98664,6 +99563,11 @@
         "at": "2026-11-20T18:54:46+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:33+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -99933,7 +100837,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -100103,7 +101007,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -100267,9 +101171,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
     "last_seen_at": "2026-11-24T18:00:03+00:00",
-    "status": "possibly_sold",
-    "previous_status": "available",
-    "missing_checks": 1,
+    "status": "sold",
+    "previous_status": "possibly_sold",
+    "missing_checks": 2,
     "listing_count": 6,
     "is_relisted": false,
     "pattern": {
@@ -100393,6 +101297,11 @@
         "at": "2026-11-25T01:58:01+00:00",
         "reason": "first_missing_check",
         "status": "possibly_sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "two_valid_checks",
+        "status": "sold"
       }
     ]
   },
@@ -100529,7 +101438,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -100738,12 +101647,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 7,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -102035,12 +102944,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 7,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -102980,12 +103889,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 5,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -103130,7 +104039,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -103283,7 +104192,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -103577,12 +104486,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
-    "previous_status": "sold",
+    "previous_status": "available",
     "missing_checks": 0,
     "listing_count": 7,
-    "is_relisted": true,
+    "is_relisted": false,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -103748,12 +104657,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-23T10:58:58+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 6,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 7,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "A 文字与印刷标志",
@@ -103884,6 +104793,11 @@
         "at": "2026-11-24T06:11:37+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:28+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
@@ -104026,7 +104940,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -104354,7 +105268,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:42+00:00",
-    "last_seen_at": "2026-11-25T01:58:01+00:00",
+    "last_seen_at": "2026-11-25T10:50:28+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -105345,7 +106259,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -106507,7 +107421,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -107384,7 +108298,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -107508,7 +108422,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -107761,9 +108675,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 4,
     "is_relisted": false,
     "pattern": {
@@ -107856,6 +108770,11 @@
         "at": "2026-11-23T02:04:45+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -107939,9 +108858,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
+    "status": "possibly_sold",
     "previous_status": "available",
-    "missing_checks": 0,
+    "missing_checks": 1,
     "listing_count": 4,
     "is_relisted": false,
     "pattern": {
@@ -108030,6 +108949,11 @@
         "at": "2026-11-23T02:04:45+00:00",
         "reason": "relisted",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -108267,7 +109191,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
-    "last_seen_at": "2026-11-25T01:57:58+00:00",
+    "last_seen_at": "2026-11-25T10:50:25+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -108839,9 +109763,9 @@
     },
     "first_seen_at": "2026-10-27T13:03:39+00:00",
     "last_seen_at": "2026-11-25T01:57:58+00:00",
-    "status": "available",
-    "previous_status": "possibly_sold",
-    "missing_checks": 0,
+    "status": "possibly_sold",
+    "previous_status": "available",
+    "missing_checks": 1,
     "listing_count": 3,
     "is_relisted": false,
     "pattern": {
@@ -108925,6 +109849,11 @@
         "at": "2026-11-25T01:57:58+00:00",
         "reason": "returned_before_confirmation",
         "status": "available"
+      },
+      {
+        "at": "2026-11-25T10:50:25+00:00",
+        "reason": "first_missing_check",
+        "status": "possibly_sold"
       }
     ]
   },
@@ -110195,7 +111124,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:35+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -110290,7 +111219,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:35+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -110653,7 +111582,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:35+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -110906,7 +111835,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:35+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -111335,7 +112264,7 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:35+00:00",
-    "last_seen_at": "2026-11-25T01:57:56+00:00",
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
     "status": "available",
     "previous_status": "available",
     "missing_checks": 0,
@@ -111729,12 +112658,12 @@
       "good_type": "UNIKAT"
     },
     "first_seen_at": "2026-10-27T13:03:35+00:00",
-    "last_seen_at": "2026-11-23T22:25:33+00:00",
-    "status": "sold",
-    "previous_status": "possibly_sold",
-    "missing_checks": 2,
-    "listing_count": 3,
-    "is_relisted": false,
+    "last_seen_at": "2026-11-25T10:50:22+00:00",
+    "status": "available",
+    "previous_status": "sold",
+    "missing_checks": 0,
+    "listing_count": 4,
+    "is_relisted": true,
     "pattern": {
       "categories": [
         "B 特殊几何图案"
@@ -111816,6 +112745,11 @@
         "at": "2026-11-24T17:59:56+00:00",
         "reason": "two_valid_checks",
         "status": "sold"
+      },
+      {
+        "at": "2026-11-25T10:50:22+00:00",
+        "reason": "relisted",
+        "status": "available"
       }
     ]
   },
